@@ -453,9 +453,11 @@ def build_html(records, revisions, last_poll):
     Data source: <a href="https://data.medicaid.gov/dataset/6165f45b-ca93-5bb5-9d06-db29c692a360" target="_blank">data.medicaid.gov</a>
     &middot; Last poll: {last_poll or today}
     &middot; Built: {today}
-    &middot; Storage: ~15 KB/day (gzip compressed)
+    &middot; Storage: ~500 KB/day (gzip compressed)
   </span>
   <span>
+    <a href="https://doi.org/10.5281/zenodo.20091323" target="_blank">DOI: 10.5281/zenodo.20091323</a>
+    &middot;
     <a href="https://github.com/Abhisek077/medicaid-enrollment-tracker" target="_blank">github.com/Abhisek077/medicaid-enrollment-tracker</a>
   </span>
 </div>
