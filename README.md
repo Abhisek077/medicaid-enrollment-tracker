@@ -1,73 +1,65 @@
 # Medicaid Enrollment Vintage Tracker
 
-**What this is:** A public archive that catches when the US government quietly changes its own Medicaid enrollment numbers — and records exactly what changed, when, and by how much.
+**Catching silent revisions to US Medicaid enrollment data — the numbers that determine healthcare coverage for 79 million Americans.**
 
-🔗 **Live dashboard:** [abhisek077.github.io/medicaid-enrollment-tracker](https://abhisek077.github.io/medicaid-enrollment-tracker)
+🔗 **Live dashboard:** [abhisek077.github.io/medicaid-enrollment-tracker/medicaid.html](https://abhisek077.github.io/medicaid-enrollment-tracker/medicaid.html)
 
 ---
 
-## The problem this solves
+## The problem
 
-Every month, the Centers for Medicare & Medicaid Services (CMS) publishes how many Americans are enrolled in Medicaid and CHIP — the government health insurance programs covering roughly 79 million low-income people.
+Every month, the Centers for Medicare & Medicaid Services (CMS) publishes how many people are enrolled in Medicaid and CHIP — the government health insurance programs that cover roughly 79 million low-income Americans.
 
-But here's what most people don't know: **those numbers get revised after the fact, silently, with no announcement.**
+These numbers get quietly revised after the fact. States resubmit corrections. Methodology changes. Old months get overwritten. CMS doesn't keep a record of what it published before.
 
-States submit corrections. Methodology changes. Old months get updated. CMS overwrites the live database without keeping a record of what it said before. If you downloaded the data in January and someone else downloaded it in March, you might have different numbers for the same month — and there's no official record of that difference.
+If you downloaded the data in January and someone else downloaded it in March, you might have different numbers for the exact same month — and neither of you would know.
 
-**This tracker is that record.**
-
-Every day, this system automatically downloads the full CMS dataset and compares it to yesterday's copy. If anything changed — any state, any month, any number — it logs the before and after value with a timestamp. Nothing gets deleted. The archive only grows.
+**This tracker downloads the full CMS dataset every day and records exactly what changed.** Nothing gets deleted. The archive only grows.
 
 ---
 
 ## Why it matters
 
-Medicaid enrollment numbers are not just statistics. They determine:
+Medicaid enrollment numbers directly determine:
 
-- **Federal matching payments** — how much money the federal government sends each state for Medicaid
-- **Policy research** — studies on coverage gaps, the effect of policy changes, who loses insurance and when
-- **Journalism** — stories about healthcare access, state budget decisions, and the effects of federal cuts
-- **Accountability** — when a state claims its enrollment dropped for one reason, the vintage record shows the actual sequence of events
+- **Federal matching payments** — how much money Washington sends each state
+- **Managed care capitation rates** — payments to insurers covering ~75% of Medicaid spending
+- **Policy research** — studies on coverage gaps, the effects of eligibility changes, and who loses insurance
+- **Journalism** — every story about healthcare access, state budgets, and federal cuts depends on these figures
+- **Accountability** — when a state claims enrollment dropped for one reason, the revision history shows the actual sequence
 
-When the numbers change silently, researchers working with the "old" version reach different conclusions than researchers working with the "new" version. Nobody can tell which version a given paper used. This archive makes the revision history permanent and public.
+When CMS silently changes a number, researchers using the old version reach different conclusions than those using the new one. This tracker makes that revision history permanent and public.
 
 ---
 
-## The context right now (May 2026)
+## The timing
 
-This tracker launched during an unusually important moment for Medicaid data:
+This tracker launched during an unusually important moment:
 
-- **25 million people lost Medicaid coverage** during the 2023–2024 "unwinding" — when pandemic-era continuous enrollment ended and states resumed eligibility checks. That's the largest coverage disruption in Medicaid's history.
-- **New cuts are in progress** under current federal legislation. Enrollment is actively changing.
-- **CMS retracted and corrected a Medicare Advantage enrollment report in January 2025** — proving that silent revisions to federal health enrollment data are a real, documented phenomenon, not a hypothetical.
+- **25 million people lost Medicaid coverage** during the 2023–2024 "unwinding" when pandemic-era protections ended — the largest coverage disruption in the program's history
+- **Active federal legislation** is changing Medicaid eligibility rules right now
+- **CMS confirmed** that states routinely revise prior months' enrollment retroactively — KFF documented this pattern explicitly
 
-This is the worst possible time to not have a revision archive. So we built one.
+This is the worst possible time to not have a revision archive.
 
 ---
 
 ## What gets tracked
 
-**Source:** [CMS Medicaid & CHIP Enrollment Data](https://data.medicaid.gov/dataset/6165f45b-ca93-5bb5-9d06-db29c692a360)
-
-**Coverage:** All 50 states + DC, every reporting month available
-
-**Cadence:** Daily snapshot. CMS updates the dataset monthly, but we check daily so we catch the exact day any revision appears.
-
-**Fields tracked per state per month:**
 | Field | What it means |
 |---|---|
-| `total_medicaid_chip_enrollment` | Everyone enrolled in Medicaid or CHIP |
-| `medicaid_enrollment` | Medicaid-only enrollees |
-| `chip_enrollment` | Children's Health Insurance Program enrollees |
-| `total_medicaid_and_chip_applications` | Applications submitted |
-| `total_eligibility_determinations` | Eligibility decisions made |
-| `total_individuals_determined_eligible` | People approved |
+| `total_medicaid_and_chip_enrollment` | Everyone enrolled in Medicaid or CHIP combined |
+| `total_medicaid_enrollment` | Medicaid-only enrollees |
+| `total_chip_enrollment` | Children's Health Insurance Program enrollees |
+| `total_medicaid_and_chip_determinations` | Eligibility decisions made |
+| `medicaid_and_chip_child_enrollment` | Children enrolled |
+| `total_adult_medicaid_enrollment` | Adults enrolled |
 
-CMS publishes two versions of each month:
-- **Preliminary** — published ~1 week after the reporting period closes
-- **Updated** — published ~1 month later, incorporating state corrections
+**Coverage:** All 50 states + DC + territories, every reporting month from 2013 onward.
 
-Both are tracked. The transition from Preliminary to Updated, and any further retroactive changes, are all logged.
+**Source:** [CMS data.medicaid.gov](https://data.medicaid.gov/dataset/6165f45b-ca93-5bb5-9d06-db29c692a360) — public, no API key required.
+
+CMS publishes two versions of each month: **Preliminary** (~1 week after close) and **Updated** (~1 month later). Both are tracked. Revisions to either version are logged.
 
 ---
 
@@ -77,80 +69,103 @@ Both are tracked. The transition from Preliminary to Updated, and any further re
 data/
   vintages/
     medicaid_enrollment/
-      2025-05-08.json     ← full CMS dataset snapshot on that date
-      2025-05-09.json
-      ...                 ← one file per day, forever
-  revision_log_medicaid.csv  ← every detected change, append-only
+      2026-05-08.json.gz    ← full CMS snapshot, compressed (~15 KB)
+      2026-05-09.json.gz
+      ...                   ← one file per day, indefinitely
+  revision_log_medicaid.csv ← every detected change, append-only
+
 docs/
-  index.html              ← the live dashboard
+  medicaid.html             ← live dashboard (auto-generated)
+
 scripts/
-  tracker_medicaid.py         ← fetches data, detects revisions, saves snapshots
-  generate_medicaid_dashboard.py  ← builds the dashboard from the data
+  tracker_medicaid.py           ← fetches data, diffs, saves snapshots
+  generate_medicaid_dashboard.py ← builds dashboard from the data
+
 .github/
   workflows/
-    medicaid_tracker.yml  ← runs everything automatically every day at 8 AM UTC
+    medicaid_tracker.yml    ← runs everything daily at 8 AM UTC
 ```
+
+### Storage
+
+The raw CMS dataset is ~27 MB. Each daily snapshot is stripped of empty fields and gzip-compressed to **~15 KB**. That's about **5 MB per year** — meaning this tracker can run for decades on GitHub's free tier without hitting any limits.
+
+Every daily file is a complete snapshot of the entire dataset as it appeared on that date. No information is lost. Any two files can be compared to independently verify any claimed revision.
 
 ### The revision log
 
-`data/revision_log_medicaid.csv` is the core output. Every row is one detected change:
+`data/revision_log_medicaid.csv` — every row is one detected change:
 
-| Column | Meaning |
+| Column | What it means |
 |---|---|
-| `detected_date` | The date we noticed the change |
+| `detected_date` | When we noticed the change |
 | `previous_vintage_date` | What we're comparing against |
-| `state_name` | Which state's number changed |
-| `report_date` | Which reporting month was revised |
-| `data_type` | Preliminary or Updated |
-| `field` | Which specific number changed |
+| `state_name` | Which state |
+| `report_date` | Which reporting month (YYYYMM format) |
+| `data_type` | `P` = Preliminary, `U` = Updated |
+| `field` | Which number changed |
 | `old_value` | What it said before |
 | `new_value` | What it says now |
+
+Special event types: `ROW_ADDED` (new state-month appeared), `ROW_DELETED` (a row was removed from the dataset).
 
 ---
 
 ## How to use this data
 
-**For researchers:** Download any dated JSON from `data/vintages/medicaid_enrollment/` to get the exact dataset as it appeared on that date. Use `revision_log_medicaid.csv` to identify which state-month combinations have been revised and by how much. Cite as:
+**Researchers:** Download any `.json.gz` file from `data/vintages/medicaid_enrollment/` — it's standard gzip-compressed JSON, readable in Python (`gzip.open`), R, or any tool. Use `revision_log_medicaid.csv` to identify which state-month pairs were revised and by how much.
 
-> Gupta, A. (2025). Medicaid Enrollment Vintage Tracker [Dataset]. GitHub. https://github.com/Abhisek077/medicaid-enrollment-tracker
+```python
+import gzip, json
 
-**For journalists:** The revision log is your starting point. Filter by state and look for large changes to recently-published months — those are the silent corrections worth investigating.
+with gzip.open("data/vintages/medicaid_enrollment/2026-05-08.json.gz", "rt") as f:
+    records = json.load(f)
 
-**For everyone else:** The [live dashboard](https://abhisek077.github.io/medicaid-enrollment-tracker) shows current enrollment by state and any revisions caught so far, updated daily.
+# Each record has: state_name, reporting_period, preliminary_or_updated,
+# total_medicaid_and_chip_enrollment, etc.
+```
 
----
+**Journalists:** Filter the revision log by state. Look for large changes to recently published months — those are the silent corrections worth investigating.
 
-## Important note on what these numbers mean
+**Everyone else:** The [live dashboard](https://abhisek077.github.io/medicaid-enrollment-tracker/medicaid.html) shows current enrollment by state and every revision caught, updated daily.
 
-> When this archive records a value for State X, Report Month Y on Date Z, it means: **that was the value returned by the CMS API on Date Z, before any subsequent revision.** It is not a CMS-certified "final" figure.
-
-This is the standard vintage-archive definition, consistent with how the [Philadelphia Fed's ALFRED](https://alfred.stlouisfed.org/) system handles national economic data. We are preserving the data as published, not certifying its accuracy.
-
----
-
-## How it works technically
-
-- A Python script runs automatically every day via GitHub Actions (free, no server needed)
-- It downloads the full CMS dataset from data.medicaid.gov's public API
-- It compares each record against the previous day's snapshot using unique state + month + data_type keys
-- Any field-level differences are appended to the revision log
-- The full snapshot is saved as a dated JSON file
-- The dashboard is rebuilt and published automatically
-
-No API keys required. No cost. Runs indefinitely.
+**Citation:**
+> Gupta, A. (2026). Medicaid Enrollment Vintage Tracker [Dataset]. GitHub. https://github.com/Abhisek077/medicaid-enrollment-tracker
 
 ---
 
-## Relationship to the broader project
+## Revision semantics
 
-This tracker is part of a larger effort to document silent revisions across US federal government statistics:
+> When this archive records a value for State X, Report Month Y on Date Z, it means: **that was the value returned by the CMS API on Date Z, before any subsequent revision.**
 
-🔗 [Government Statistics Vintage Tracker](https://abhisek077.github.io/govt-stats-tracker) — tracks BLS unemployment, BEA GDP, CDC mortality, EPA air quality, HUD housing data, and more.
+This is the standard vintage-archive definition, consistent with how the [Philadelphia Fed's ALFRED](https://alfred.stlouisfed.org/) handles national economic data.
 
 ---
 
-## Questions, issues, or found a revision we missed?
+## How it runs
 
-Open an issue on this repo or contact via GitHub.
+- A Python script runs automatically every day at 8 AM UTC via GitHub Actions (free)
+- Downloads all ~10,600 records from the CMS public API (no authentication needed)
+- Compares each record against the previous day's snapshot
+- Logs any field-level differences to the revision CSV
+- Saves the full snapshot as compressed JSON (~15 KB)
+- Rebuilds the dashboard HTML
+- Commits and pushes everything automatically
 
-*Not affiliated with CMS, HHS, or any federal agency. All data is sourced from public government APIs.*
+No server. No API keys. No cost. Runs indefinitely.
+
+---
+
+## Related
+
+This tracker is part of a broader effort to document silent revisions in US federal statistics:
+
+🔗 [Government Statistics Vintage Tracker](https://abhisek077.github.io/govt-stats-tracker) — covers BLS unemployment, BEA GDP, CDC mortality, EPA air quality, HUD housing data, and more.
+
+---
+
+## Contributing
+
+Found a revision this tracker missed? Have a question about the data? Open an issue.
+
+*Not affiliated with CMS, HHS, or any federal agency. All data is from public government APIs.*
