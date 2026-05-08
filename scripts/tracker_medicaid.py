@@ -10,49 +10,48 @@ Data source:
   API:     https://data.medicaid.gov/api/1/datastore/query/6165f45b-ca93-5bb5-9d06-db29c692a360/0
 
 Why revisions matter:
-  CMS publishes both Preliminary and Updated figures for each reporting month.
-  States frequently revise their submissions retroactively. This script captures
-  the value as it appeared on each fetch date so the before/after is permanently
-  recorded — something CMS itself does not do.
+  CMS publishes both Preliminary ("P") and Updated ("U") figures for each
+  reporting month. States frequently revise their submissions retroactively.
+  This script captures the value as it appeared on each fetch date so the
+  before/after is permanently recorded — something CMS itself does not do.
 
-Schema (key fields tracked):
-  - state_name        : State or territory name
-  - report_date       : Reporting month (YYYY-MM format)
-  - data_type         : "Preliminary" or "Updated"
-  - total_medicaid_chip_enrollment : Total Medicaid + CHIP enrollees
-  - medicaid_enrollment            : Medicaid-only enrollees
-  - chip_enrollment                : Separate CHIP enrollees
+Storage:
+  Snapshots are saved as gzip-compressed JSON with null/empty fields stripped.
+  Raw API response: ~27 MB -> compressed vintage: ~15 KB per day (~5 MB/year).
+  This allows daily full snapshots indefinitely on GitHub free tier (1 GB limit).
 
 Usage:
   python tracker_medicaid.py
 
 Output:
-  data/vintages/medicaid_enrollment/{YYYY-MM-DD}.json  — full snapshot
-  data/revision_log_medicaid.csv                       — append-only diff log
+  data/vintages/medicaid_enrollment/{YYYY-MM-DD}.json.gz  — compressed snapshot
+  data/revision_log_medicaid.csv                          — append-only diff log
 """
 
 import os
 import json
 import csv
+import gzip
 import hashlib
 import requests
-from datetime import date, datetime
+from datetime import date
 
 # ── Configuration ─────────────────────────────────────────────────────────────
 
-DATASET_ID  = "6165f45b-ca93-5bb5-9d06-db29c692a360"
-API_BASE    = f"https://data.medicaid.gov/api/1/datastore/query/{DATASET_ID}/0"
-SERIES_DIR  = "data/vintages/medicaid_enrollment"
+DATASET_ID   = "6165f45b-ca93-5bb5-9d06-db29c692a360"
+API_BASE     = f"https://data.medicaid.gov/api/1/datastore/query/{DATASET_ID}/0"
+SERIES_DIR   = "data/vintages/medicaid_enrollment"
 REVISION_LOG = "data/revision_log_medicaid.csv"
-PAGE_SIZE   = 1000   # records per API page
+PAGE_SIZE    = 1000   # records per API page
 
-# Fields we track for revision detection (must be stable column names)
-# Adjust if CMS renames columns — check the API response on first run.
+# Key fields — together they uniquely identify one row
 KEY_FIELDS = [
     "state_name",
     "reporting_period",       # format: "202309" (YYYYMM)
     "preliminary_or_updated", # "U" = Updated, "P" = Preliminary
 ]
+
+# Value fields — these are what we watch for revisions
 VALUE_FIELDS = [
     "total_medicaid_and_chip_enrollment",
     "total_medicaid_enrollment",
@@ -65,15 +64,12 @@ VALUE_FIELDS = [
 # ── Helpers ───────────────────────────────────────────────────────────────────
 
 def fetch_all_records() -> list[dict]:
-    """Page through the Socrata API and return all records."""
+    """Page through the API and return all records."""
     records = []
     offset  = 0
 
     while True:
-        params = {
-            "limit":  PAGE_SIZE,
-            "offset": offset,
-        }
+        params = {"limit": PAGE_SIZE, "offset": offset}
         try:
             resp = requests.get(API_BASE, params=params, timeout=60)
             resp.raise_for_status()
@@ -81,9 +77,7 @@ def fetch_all_records() -> list[dict]:
             print(f"  [ERROR] API fetch failed at offset {offset}: {e}")
             raise
 
-        data = resp.json()
-
-        # data.medicaid.gov wraps results under "results" key
+        data  = resp.json()
         batch = data.get("results", [])
         if not batch:
             break
@@ -91,13 +85,16 @@ def fetch_all_records() -> list[dict]:
         records.extend(batch)
         print(f"  Fetched {len(records)} records so far...")
 
-        # If we got fewer records than PAGE_SIZE, we've reached the end
         if len(batch) < PAGE_SIZE:
             break
-
         offset += PAGE_SIZE
 
     return records
+
+
+def slim_record(record: dict) -> dict:
+    """Strip null values and empty strings to reduce storage size."""
+    return {k: v for k, v in record.items() if v is not None and v != ""}
 
 
 def make_row_key(record: dict) -> str:
@@ -106,46 +103,51 @@ def make_row_key(record: dict) -> str:
     return "||".join(parts)
 
 
-def make_row_hash(record: dict) -> str:
-    """Hash the value fields to detect changes."""
-    parts = [str(record.get(f, "")).strip() for f in VALUE_FIELDS]
-    content = "||".join(parts)
-    return hashlib.md5(content.encode()).hexdigest()
-
-
 def load_previous_vintage(series_dir: str) -> tuple[dict, str | None]:
     """
     Return (keyed_records, previous_date_str) for the most recent vintage file,
     or ({}, None) if no previous vintage exists.
+    Supports both .json.gz (new) and .json (legacy) files.
     """
     if not os.path.isdir(series_dir):
         return {}, None
 
-    vintages = sorted(
-        [f for f in os.listdir(series_dir) if f.endswith(".json")],
-        reverse=True,
-    )
+    files = sorted(os.listdir(series_dir), reverse=True)
+    vintages = [f for f in files if f.endswith(".json.gz") or f.endswith(".json")]
     if not vintages:
         return {}, None
 
     latest = vintages[0]
-    prev_date = latest.replace(".json", "")
+    prev_date = latest.replace(".json.gz", "").replace(".json", "")
     path = os.path.join(series_dir, latest)
 
-    with open(path) as f:
-        records = json.load(f)
+    if latest.endswith(".json.gz"):
+        with gzip.open(path, "rt", encoding="utf-8") as f:
+            records = json.load(f)
+    else:
+        with open(path) as f:
+            records = json.load(f)
 
     keyed = {make_row_key(r): r for r in records}
     return keyed, prev_date
 
 
 def save_vintage(records: list[dict], series_dir: str, today: str) -> None:
-    """Save today's full snapshot as a dated JSON file."""
+    """
+    Save today's full snapshot as gzip-compressed JSON with null/empty fields
+    stripped. ~27 MB raw -> ~15 KB compressed.
+    """
     os.makedirs(series_dir, exist_ok=True)
-    path = os.path.join(series_dir, f"{today}.json")
-    with open(path, "w") as f:
-        json.dump(records, f, indent=2)
-    print(f"  Saved vintage: {path} ({len(records)} records)")
+
+    slim_records = [slim_record(r) for r in records]
+    json_bytes   = json.dumps(slim_records, separators=(",", ":")).encode("utf-8")
+
+    path = os.path.join(series_dir, f"{today}.json.gz")
+    with gzip.open(path, "wb", compresslevel=9) as f:
+        f.write(json_bytes)
+
+    size_kb = os.path.getsize(path) / 1024
+    print(f"  Saved vintage: {path} ({len(records)} records, {size_kb:.0f} KB compressed)")
 
 
 def log_revision(
@@ -194,7 +196,7 @@ def log_revision(
 # ── Main ──────────────────────────────────────────────────────────────────────
 
 def main():
-    today = date.today().isoformat()  # e.g. "2025-05-08"
+    today = date.today().isoformat()
     print(f"\n{'='*60}")
     print(f"Medicaid Enrollment Tracker — {today}")
     print(f"{'='*60}")
@@ -231,7 +233,6 @@ def main():
     deleted_rows    = 0
 
     if prev_date:
-        # Check for changed or new rows
         for key, curr_record in curr_keyed.items():
             state       = curr_record.get("state_name", "")
             report_date = curr_record.get("reporting_period", "")
@@ -239,7 +240,6 @@ def main():
 
             if key not in prev_keyed:
                 new_rows += 1
-                # Log new rows as a revision event so we capture new months appearing
                 log_revision(
                     REVISION_LOG, today, prev_date,
                     key, "ROW_ADDED", "", "new_record",
@@ -249,7 +249,6 @@ def main():
 
             prev_record = prev_keyed[key]
 
-            # Field-level diff on value fields
             for field in VALUE_FIELDS:
                 old_val = str(prev_record.get(field, "")).strip()
                 new_val = str(curr_record.get(field, "")).strip()
@@ -260,9 +259,8 @@ def main():
                         key, field, old_val, new_val,
                         state, report_date, data_type,
                     )
-                    print(f"  REVISION: {state} | {report_date} | {data_type} | {field}: {old_val!r} → {new_val!r}")
+                    print(f"  REVISION: {state} | {report_date} | {data_type} | {field}: {old_val!r} -> {new_val!r}")
 
-        # Check for deleted rows
         for key in prev_keyed:
             if key not in curr_keyed:
                 deleted_rows += 1
@@ -271,8 +269,8 @@ def main():
                     REVISION_LOG, today, prev_date,
                     key, "ROW_DELETED", "existed", "",
                     prev_record.get("state_name", ""),
-                    prev_record.get("report_date", ""),
-                    prev_record.get("data_type", ""),
+                    prev_record.get("reporting_period", ""),
+                    prev_record.get("preliminary_or_updated", ""),
                 )
                 print(f"  DELETED ROW: {key}")
 
@@ -280,11 +278,10 @@ def main():
     else:
         print("  First run — skipping diff, saving baseline vintage.")
 
-    # 4. Save today's vintage
-    print(f"\n[4] Saving today's vintage...")
+    # 4. Save today's vintage (compressed)
+    print(f"\n[4] Saving today's vintage (compressed)...")
     save_vintage(records, SERIES_DIR, today)
 
-    # 5. Done
     print(f"\n{'='*60}")
     print(f"Done. Revision log: {REVISION_LOG}")
     print(f"{'='*60}\n")
