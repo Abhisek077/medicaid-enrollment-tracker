@@ -12,7 +12,7 @@ from pathlib import Path
 
 SERIES_DIR   = "data/vintages/medicaid_enrollment"
 REVISION_LOG = "data/revision_log_medicaid.csv"
-OUTPUT_HTML  = "docs/index.html"
+OUTPUT_HTML  = "docs/medicaid.html"
 
 # ── Data loading ──────────────────────────────────────────────────────────────
 
