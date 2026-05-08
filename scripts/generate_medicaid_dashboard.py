@@ -53,10 +53,10 @@ def get_summary_stats(records, revisions):
     state_latest = {}
     for r in records:
         state = r.get("state_name", "")
-        dtype = r.get("data_type", "")
-        rdate = r.get("report_date", "")
-        enroll = r.get("total_medicaid_chip_enrollment") or r.get("medicaid_enrollment", "")
-        if state and dtype == "Updated" and enroll:
+        dtype = r.get("preliminary_or_updated", "")
+        rdate = r.get("reporting_period", "")
+        enroll = r.get("total_medicaid_and_chip_enrollment", "")
+        if state and dtype == "U" and enroll:
             if state not in state_latest or rdate > state_latest[state]["report_date"]:
                 state_latest[state] = {"report_date": rdate, "enrollment": enroll}
 
@@ -87,7 +87,7 @@ def build_state_table(records):
         state = r.get("state_name", "")
         dtype = r.get("data_type", "")
         rdate = r.get("report_date", "")
-        if not state or dtype != "Updated":
+        if not state or dtype != "U":
             continue
         enroll_raw = r.get("total_medicaid_chip_enrollment") or r.get("medicaid_enrollment", "")
         try:
@@ -98,8 +98,8 @@ def build_state_table(records):
             state_data[state] = {
                 "report_date": rdate,
                 "enrollment":  enroll,
-                "medicaid":    r.get("medicaid_enrollment", "—"),
-                "chip":        r.get("chip_enrollment", "—"),
+                "medicaid":    r.get("total_medicaid_enrollment", "—"),
+                "chip":        r.get("total_chip_enrollment", "—"),
             }
 
     rows_html = ""
@@ -328,7 +328,7 @@ def build_html(records, revisions, last_poll):
     <span class="badge badge-blue">Public Dataset</span>
     <span class="badge badge-green">Updated Daily</span>
     <span class="badge badge-blue">Automated</span>
-    <a class="back-link" href="index.html">← Main tracker</a>
+    <a class="back-link" href="https://abhisek077.github.io/govt-stats-tracker" target="_blank">← Main tracker</a>
   </div>
   <h1>Medicaid &amp; CHIP Enrollment Vintage Tracker</h1>
   <p class="subtitle">
@@ -440,7 +440,7 @@ def build_html(records, revisions, last_poll):
     · Built: {today}
   </span>
   <span>
-    <a href="https://github.com/Abhisek077/govt-stats-tracker" target="_blank">github.com/Abhisek077/govt-stats-tracker</a>
+    <a href="https://github.com/Abhisek077/medicaid-enrollment-tracker" target="_blank">github.com/Abhisek077/medicaid-enrollment-tracker</a>
   </span>
 </div>
 
