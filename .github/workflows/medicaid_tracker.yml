@@ -1,0 +1,44 @@
+name: Medicaid Enrollment Vintage Tracker
+
+on:
+  schedule:
+    # Runs daily at 8 AM UTC (offset from your existing 7 AM tracker to avoid overlap)
+    - cron: '0 8 * * *'
+  workflow_dispatch:  # Allow manual trigger from GitHub Actions UI
+
+jobs:
+  track-medicaid:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # needed to push vintage files back to the repo
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run Medicaid enrollment tracker
+        run: python scripts/tracker_medicaid.py
+
+      - name: Generate Medicaid dashboard
+        run: python scripts/generate_medicaid_dashboard.py
+
+      - name: Commit and push all changes
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/vintages/medicaid_enrollment/
+          git add data/revision_log_medicaid.csv || true
+          git add docs/medicaid.html
+          # Only commit if there are changes
+          git diff --cached --quiet || git commit -m "Medicaid vintage + dashboard: $(date -u +%Y-%m-%d)"
+          git push
