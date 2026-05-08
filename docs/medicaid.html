@@ -15,7 +15,6 @@
       padding: 0 0 60px;
     }
 
-    /* ── Header ── */
     .header {
       background: #161b22;
       border-bottom: 1px solid #30363d;
@@ -56,10 +55,8 @@
       max-width: 700px;
     }
 
-    /* ── Main layout ── */
     .main { max-width: 1100px; margin: 0 auto; padding: 32px 24px 0; }
 
-    /* ── Stats grid ── */
     .stats-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
@@ -89,7 +86,6 @@
     .stat-card.highlight .stat-value { color: #3fb950; }
     .stat-card.warn      .stat-value { color: #f78166; }
 
-    /* ── Section ── */
     .section { margin-bottom: 36px; }
     .section-title {
       font-size: 14px;
@@ -108,7 +104,6 @@
       font-weight: 400;
     }
 
-    /* ── Tables ── */
     .table-wrap { overflow-x: auto; border-radius: 8px; border: 1px solid #30363d; }
     table {
       width: 100%;
@@ -141,7 +136,6 @@
     .new { color: #3fb950; }
     .diff { font-family: monospace; font-size: 11px; white-space: nowrap; }
 
-    /* ── Footer ── */
     .footer {
       max-width: 1100px;
       margin: 40px auto 0;
@@ -157,7 +151,6 @@
     .footer a { color: #58a6ff; text-decoration: none; }
     .footer a:hover { text-decoration: underline; }
 
-    /* ── Why this matters box ── */
     .info-box {
       background: #161b22;
       border: 1px solid #30363d;
@@ -179,26 +172,25 @@
     <span class="badge badge-blue">Public Dataset</span>
     <span class="badge badge-green">Updated Daily</span>
     <span class="badge badge-blue">Automated</span>
-    <a class="back-link" href="https://abhisek077.github.io/govt-stats-tracker" target="_blank">← Main tracker</a>
+    <a class="back-link" href="https://abhisek077.github.io/govt-stats-tracker" target="_blank">&larr; Main tracker</a>
   </div>
   <h1>Medicaid &amp; CHIP Enrollment Vintage Tracker</h1>
   <p class="subtitle">
-    Daily snapshots of CMS Medicaid &amp; CHIP monthly enrollment data — capturing silent retroactive
-    revisions that states submit without public announcement. When a state's enrollment figure
+    Daily snapshots of CMS Medicaid &amp; CHIP monthly enrollment data &mdash; capturing silent retroactive
+    revisions that states submit without public announcement. When a state&rsquo;s enrollment figure
     changes after publication, the before/after is recorded here permanently.
   </p>
 </div>
 
 <div class="main">
 
-  <!-- Stats -->
   <div class="stats-grid">
     <div class="stat-card">
-      <div class="stat-value">1</div>
+      <div class="stat-value">2</div>
       <div class="stat-label">Days running</div>
     </div>
     <div class="stat-card">
-      <div class="stat-value">1</div>
+      <div class="stat-value">2</div>
       <div class="stat-label">Total snapshots</div>
     </div>
     <div class="stat-card ">
@@ -219,25 +211,25 @@
     </div>
   </div>
 
-  <!-- Why this matters -->
   <div class="info-box">
     <strong>Why this matters:</strong> CMS publishes Preliminary enrollment figures ~1 week after
     each reporting period, then Updated figures ~1 month later. States also revise earlier months
-    retroactively when they detect errors. These revisions are silent — CMS overwrites the live
-    dataset without a changelog. This tracker is that changelog. With ~79 million Americans
-    currently enrolled in Medicaid and active policy changes in progress, the revision history
-    is a primary research record.
+    retroactively when they detect errors. These revisions are silent &mdash; CMS overwrites the live
+    dataset without a changelog. This tracker is that changelog.<br><br>
+    <strong>How to read this data:</strong> The state table below shows the most recent Updated
+    enrollment for each state. The revision log shows every time a previously published number
+    was changed &mdash; with the old and new values. Each daily snapshot is preserved as a compressed
+    file (~15 KB) so anyone can independently verify any revision by comparing two dated files.
     <br><br>
     <strong>Revision semantics:</strong> A value recorded for state X on date Y means the figure
-    returned by the CMS API on that date, before any subsequent revision — consistent with the
-    Philadelphia Fed's ALFRED vintage methodology.
+    returned by the CMS API on that date, before any subsequent revision &mdash; consistent with the
+    Philadelphia Fed&rsquo;s ALFRED vintage methodology.
   </div>
 
-  <!-- State enrollment table -->
   <div class="section">
     <div class="section-title">
       Latest enrollment by state
-      <span class="section-note">Most recent Updated figures · source: data.medicaid.gov</span>
+      <span class="section-note">Most recent Updated figures &middot; source: data.medicaid.gov</span>
     </div>
     <div class="table-wrap">
       <table>
@@ -246,22 +238,378 @@
             <th>State / Territory</th>
             <th>Report month</th>
             <th class="num">Total Medicaid + CHIP</th>
-            <th class="num">Medicaid</th>
-            <th class="num">CHIP</th>
+            <th class="num">Medicaid only</th>
+            <th class="num">CHIP only</th>
           </tr>
         </thead>
         <tbody>
-          <tr><td colspan="5" class="empty">No data yet — run the tracker first</td></tr>
+          
+        <tr>
+          <td>Alabama</td>
+          <td>Dec 2025</td>
+          <td class="num">945,191</td>
+          <td class="num">750,744</td>
+          <td class="num">194,447</td>
+        </tr>
+        <tr>
+          <td>Alaska</td>
+          <td>Dec 2025</td>
+          <td class="num">212,089</td>
+          <td class="num">199,113</td>
+          <td class="num">12,976</td>
+        </tr>
+        <tr>
+          <td>Arizona</td>
+          <td>Dec 2025</td>
+          <td class="num">1,678,092</td>
+          <td class="num">1,565,458</td>
+          <td class="num">112,634</td>
+        </tr>
+        <tr>
+          <td>Arkansas</td>
+          <td>Dec 2025</td>
+          <td class="num">807,724</td>
+          <td class="num">723,941</td>
+          <td class="num">83,783</td>
+        </tr>
+        <tr>
+          <td>California</td>
+          <td>Dec 2025</td>
+          <td class="num">12,731,627</td>
+          <td class="num">11,498,458</td>
+          <td class="num">1,233,169</td>
+        </tr>
+        <tr>
+          <td>Colorado</td>
+          <td>Dec 2025</td>
+          <td class="num">1,193,308</td>
+          <td class="num">1,052,954</td>
+          <td class="num">140,354</td>
+        </tr>
+        <tr>
+          <td>Connecticut</td>
+          <td>Dec 2025</td>
+          <td class="num">907,009</td>
+          <td class="num">881,656</td>
+          <td class="num">25,353</td>
+        </tr>
+        <tr>
+          <td>Delaware</td>
+          <td>Dec 2025</td>
+          <td class="num">240,456</td>
+          <td class="num">226,467</td>
+          <td class="num">13,989</td>
+        </tr>
+        <tr>
+          <td>District of Columbia</td>
+          <td>Dec 2025</td>
+          <td class="num">258,572</td>
+          <td class="num">242,180</td>
+          <td class="num">16,392</td>
+        </tr>
+        <tr>
+          <td>Florida</td>
+          <td>Dec 2025</td>
+          <td class="num">3,592,110</td>
+          <td class="num">3,431,155</td>
+          <td class="num">160,955</td>
+        </tr>
+        <tr>
+          <td>Georgia</td>
+          <td>Dec 2025</td>
+          <td class="num">1,882,498</td>
+          <td class="num">1,692,481</td>
+          <td class="num">190,017</td>
+        </tr>
+        <tr>
+          <td>Hawaii</td>
+          <td>Dec 2025</td>
+          <td class="num">388,228</td>
+          <td class="num">363,466</td>
+          <td class="num">24,762</td>
+        </tr>
+        <tr>
+          <td>Idaho</td>
+          <td>Dec 2025</td>
+          <td class="num">313,952</td>
+          <td class="num">294,104</td>
+          <td class="num">19,848</td>
+        </tr>
+        <tr>
+          <td>Illinois</td>
+          <td>Dec 2025</td>
+          <td class="num">3,023,402</td>
+          <td class="num">2,700,951</td>
+          <td class="num">322,451</td>
+        </tr>
+        <tr>
+          <td>Indiana</td>
+          <td>Dec 2025</td>
+          <td class="num">1,538,217</td>
+          <td class="num">1,412,073</td>
+          <td class="num">126,144</td>
+        </tr>
+        <tr>
+          <td>Iowa</td>
+          <td>Dec 2025</td>
+          <td class="num">671,552</td>
+          <td class="num">586,048</td>
+          <td class="num">85,504</td>
+        </tr>
+        <tr>
+          <td>Kansas</td>
+          <td>Dec 2025</td>
+          <td class="num">404,849</td>
+          <td class="num">332,430</td>
+          <td class="num">72,419</td>
+        </tr>
+        <tr>
+          <td>Kentucky</td>
+          <td>Dec 2025</td>
+          <td class="num">1,327,761</td>
+          <td class="num">1,194,495</td>
+          <td class="num">133,266</td>
+        </tr>
+        <tr>
+          <td>Louisiana</td>
+          <td>Dec 2025</td>
+          <td class="num">1,403,139</td>
+          <td class="num">1,265,315</td>
+          <td class="num">137,824</td>
+        </tr>
+        <tr>
+          <td>Maine</td>
+          <td>Dec 2025</td>
+          <td class="num">339,610</td>
+          <td class="num">312,572</td>
+          <td class="num">27,038</td>
+        </tr>
+        <tr>
+          <td>Maryland</td>
+          <td>Dec 2025</td>
+          <td class="num">1,406,894</td>
+          <td class="num">1,208,676</td>
+          <td class="num">198,218</td>
+        </tr>
+        <tr>
+          <td>Massachusetts</td>
+          <td>Dec 2025</td>
+          <td class="num">1,588,695</td>
+          <td class="num">1,396,994</td>
+          <td class="num">191,701</td>
+        </tr>
+        <tr>
+          <td>Michigan</td>
+          <td>Dec 2025</td>
+          <td class="num">2,301,457</td>
+          <td class="num">2,132,117</td>
+          <td class="num">169,340</td>
+        </tr>
+        <tr>
+          <td>Minnesota</td>
+          <td>Dec 2025</td>
+          <td class="num">1,158,399</td>
+          <td class="num">1,154,038</td>
+          <td class="num">4,361</td>
+        </tr>
+        <tr>
+          <td>Mississippi</td>
+          <td>Dec 2025</td>
+          <td class="num">593,107</td>
+          <td class="num">509,186</td>
+          <td class="num">83,921</td>
+        </tr>
+        <tr>
+          <td>Missouri</td>
+          <td>Dec 2025</td>
+          <td class="num">1,264,714</td>
+          <td class="num">1,131,455</td>
+          <td class="num">133,259</td>
+        </tr>
+        <tr>
+          <td>Montana</td>
+          <td>Dec 2025</td>
+          <td class="num">213,386</td>
+          <td class="num">193,114</td>
+          <td class="num">20,272</td>
+        </tr>
+        <tr>
+          <td>Nebraska</td>
+          <td>Dec 2025</td>
+          <td class="num">336,922</td>
+          <td class="num">299,325</td>
+          <td class="num">37,597</td>
+        </tr>
+        <tr>
+          <td>Nevada</td>
+          <td>Dec 2025</td>
+          <td class="num">726,387</td>
+          <td class="num">679,311</td>
+          <td class="num">47,076</td>
+        </tr>
+        <tr>
+          <td>New Hampshire</td>
+          <td>Dec 2025</td>
+          <td class="num">177,423</td>
+          <td class="num">158,237</td>
+          <td class="num">19,186</td>
+        </tr>
+        <tr>
+          <td>New Jersey</td>
+          <td>Dec 2025</td>
+          <td class="num">1,767,641</td>
+          <td class="num">1,507,882</td>
+          <td class="num">259,759</td>
+        </tr>
+        <tr>
+          <td>New Mexico</td>
+          <td>Dec 2025</td>
+          <td class="num">682,701</td>
+          <td class="num">638,988</td>
+          <td class="num">43,713</td>
+        </tr>
+        <tr>
+          <td>New York</td>
+          <td>Dec 2025</td>
+          <td class="num">6,550,143</td>
+          <td class="num">5,887,318</td>
+          <td class="num">662,825</td>
+        </tr>
+        <tr>
+          <td>North Carolina</td>
+          <td>Dec 2025</td>
+          <td class="num">2,881,668</td>
+          <td class="num">2,535,205</td>
+          <td class="num">346,463</td>
+        </tr>
+        <tr>
+          <td>North Dakota</td>
+          <td>Dec 2025</td>
+          <td class="num">106,248</td>
+          <td class="num">100,706</td>
+          <td class="num">5,542</td>
+        </tr>
+        <tr>
+          <td>Ohio</td>
+          <td>Dec 2025</td>
+          <td class="num">2,729,099</td>
+          <td class="num">2,486,762</td>
+          <td class="num">242,337</td>
+        </tr>
+        <tr>
+          <td>Oklahoma</td>
+          <td>Dec 2025</td>
+          <td class="num">968,050</td>
+          <td class="num">889,045</td>
+          <td class="num">79,005</td>
+        </tr>
+        <tr>
+          <td>Oregon</td>
+          <td>Dec 2025</td>
+          <td class="num">1,308,432</td>
+          <td class="num">1,123,951</td>
+          <td class="num">184,481</td>
+        </tr>
+        <tr>
+          <td>Pennsylvania</td>
+          <td>Dec 2025</td>
+          <td class="num">3,005,350</td>
+          <td class="num">2,724,282</td>
+          <td class="num">281,068</td>
+        </tr>
+        <tr>
+          <td>Rhode Island</td>
+          <td>Dec 2025</td>
+          <td class="num">298,497</td>
+          <td class="num">264,836</td>
+          <td class="num">33,661</td>
+        </tr>
+        <tr>
+          <td>South Carolina</td>
+          <td>Dec 2025</td>
+          <td class="num">977,554</td>
+          <td class="num">864,722</td>
+          <td class="num">112,832</td>
+        </tr>
+        <tr>
+          <td>South Dakota</td>
+          <td>Dec 2025</td>
+          <td class="num">136,509</td>
+          <td class="num">122,091</td>
+          <td class="num">14,418</td>
+        </tr>
+        <tr>
+          <td>Tennessee</td>
+          <td>Dec 2025</td>
+          <td class="num">1,409,733</td>
+          <td class="num">1,226,436</td>
+          <td class="num">183,297</td>
+        </tr>
+        <tr>
+          <td>Texas</td>
+          <td>Dec 2025</td>
+          <td class="num">4,111,374</td>
+          <td class="num">3,764,587</td>
+          <td class="num">346,787</td>
+        </tr>
+        <tr>
+          <td>Utah</td>
+          <td>Dec 2025</td>
+          <td class="num">332,396</td>
+          <td class="num">297,414</td>
+          <td class="num">34,982</td>
+        </tr>
+        <tr>
+          <td>Vermont</td>
+          <td>Dec 2025</td>
+          <td class="num">151,308</td>
+          <td class="num">145,876</td>
+          <td class="num">5,432</td>
+        </tr>
+        <tr>
+          <td>Virginia</td>
+          <td>Dec 2025</td>
+          <td class="num">1,690,652</td>
+          <td class="num">1,495,172</td>
+          <td class="num">195,480</td>
+        </tr>
+        <tr>
+          <td>Washington</td>
+          <td>Dec 2025</td>
+          <td class="num">1,791,758</td>
+          <td class="num">1,726,702</td>
+          <td class="num">65,056</td>
+        </tr>
+        <tr>
+          <td>West Virginia</td>
+          <td>Dec 2025</td>
+          <td class="num">490,156</td>
+          <td class="num">450,475</td>
+          <td class="num">39,681</td>
+        </tr>
+        <tr>
+          <td>Wisconsin</td>
+          <td>Dec 2025</td>
+          <td class="num">1,130,048</td>
+          <td class="num">1,029,554</td>
+          <td class="num">100,494</td>
+        </tr>
+        <tr>
+          <td>Wyoming</td>
+          <td>Dec 2025</td>
+          <td class="num">60,450</td>
+          <td class="num">54,505</td>
+          <td class="num">5,945</td>
+        </tr>
         </tbody>
       </table>
     </div>
   </div>
 
-  <!-- Revision log -->
   <div class="section">
     <div class="section-title">
       Revision log
-      <span class="section-note">Field-level changes only · most recent first · capped at 100 rows</span>
+      <span class="section-note">Field-level changes only &middot; most recent first &middot; capped at 100 rows</span>
     </div>
     <div class="table-wrap">
       <table>
@@ -287,8 +635,9 @@
 <div class="footer">
   <span>
     Data source: <a href="https://data.medicaid.gov/dataset/6165f45b-ca93-5bb5-9d06-db29c692a360" target="_blank">data.medicaid.gov</a>
-    · Last poll: 2026-05-08
-    · Built: 2026-05-08
+    &middot; Last poll: 2026-05-08
+    &middot; Built: 2026-05-08
+    &middot; Storage: ~15 KB/day (gzip compressed)
   </span>
   <span>
     <a href="https://github.com/Abhisek077/medicaid-enrollment-tracker" target="_blank">github.com/Abhisek077/medicaid-enrollment-tracker</a>
