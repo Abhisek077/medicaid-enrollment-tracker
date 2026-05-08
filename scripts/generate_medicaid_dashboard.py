@@ -7,7 +7,8 @@ Run after tracker_medicaid.py in the same GitHub Actions workflow.
 import os
 import json
 import csv
-from datetime import date, datetime
+import gzip
+from datetime import date
 from pathlib import Path
 
 SERIES_DIR   = "data/vintages/medicaid_enrollment"
@@ -19,13 +20,19 @@ OUTPUT_HTML  = "docs/medicaid.html"
 def load_latest_vintage():
     if not os.path.isdir(SERIES_DIR):
         return [], None
-    files = sorted([f for f in os.listdir(SERIES_DIR) if f.endswith(".json")], reverse=True)
-    if not files:
+    files = sorted(os.listdir(SERIES_DIR), reverse=True)
+    vintages = [f for f in files if f.endswith(".json.gz") or f.endswith(".json")]
+    if not vintages:
         return [], None
-    latest = files[0]
-    date_str = latest.replace(".json", "")
-    with open(os.path.join(SERIES_DIR, latest)) as f:
-        records = json.load(f)
+    latest = vintages[0]
+    date_str = latest.replace(".json.gz", "").replace(".json", "")
+    path = os.path.join(SERIES_DIR, latest)
+    if latest.endswith(".json.gz"):
+        with gzip.open(path, "rt", encoding="utf-8") as f:
+            records = json.load(f)
+    else:
+        with open(path) as f:
+            records = json.load(f)
     return records, date_str
 
 def load_revision_log():
@@ -39,17 +46,15 @@ def load_revision_log():
 def count_vintage_days():
     if not os.path.isdir(SERIES_DIR):
         return 0
-    return len([f for f in os.listdir(SERIES_DIR) if f.endswith(".json")])
+    return len([f for f in os.listdir(SERIES_DIR) if f.endswith(".json.gz") or f.endswith(".json")])
 
 # ── Stats helpers ─────────────────────────────────────────────────────────────
 
 def get_summary_stats(records, revisions):
     total_enroll = 0
-    state_count  = 0
     states_seen  = set()
 
-    # Try to get most recent "Updated" data per state
-    # Group by state, pick latest report_date with data_type=Updated
+    # Get most recent "Updated" data per state
     state_latest = {}
     for r in records:
         state = r.get("state_name", "")
@@ -67,7 +72,6 @@ def get_summary_stats(records, revisions):
         except (ValueError, TypeError):
             pass
 
-    # Revision stats — exclude ROW_ADDED events for "real" revision count
     real_revisions = [r for r in revisions if r.get("field") not in ("ROW_ADDED", "ROW_DELETED")]
     new_months     = [r for r in revisions if r.get("field") == "ROW_ADDED"]
 
@@ -80,16 +84,37 @@ def get_summary_stats(records, revisions):
         "total_polls":       count_vintage_days(),
     }
 
+def format_period(p):
+    """Convert '202309' to 'Sep 2023' for display."""
+    if not p or len(p) != 6:
+        return p or "—"
+    try:
+        year = p[:4]
+        month_num = int(p[4:6])
+        months = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]
+        return f"{months[month_num - 1]} {year}"
+    except (ValueError, IndexError):
+        return p
+
+def format_number(val):
+    """Format a number string with commas, or return '—'."""
+    if not val or val == "None":
+        return "—"
+    try:
+        return f"{int(str(val).replace(',', '')):,}"
+    except (ValueError, TypeError):
+        return "—"
+
 def build_state_table(records):
     """Build per-state latest enrollment summary."""
     state_data = {}
     for r in records:
         state = r.get("state_name", "")
-        dtype = r.get("data_type", "")
-        rdate = r.get("report_date", "")
+        dtype = r.get("preliminary_or_updated", "")
+        rdate = r.get("reporting_period", "")
         if not state or dtype != "U":
             continue
-        enroll_raw = r.get("total_medicaid_chip_enrollment") or r.get("medicaid_enrollment", "")
+        enroll_raw = r.get("total_medicaid_and_chip_enrollment", "")
         try:
             enroll = int(str(enroll_raw).replace(",", ""))
         except (ValueError, TypeError):
@@ -98,21 +123,20 @@ def build_state_table(records):
             state_data[state] = {
                 "report_date": rdate,
                 "enrollment":  enroll,
-                "medicaid":    r.get("total_medicaid_enrollment", "—"),
-                "chip":        r.get("total_chip_enrollment", "—"),
+                "medicaid":    r.get("total_medicaid_enrollment", ""),
+                "chip":        r.get("total_chip_enrollment", ""),
             }
 
     rows_html = ""
     for state in sorted(state_data.keys()):
         d = state_data[state]
-        enroll_fmt = f"{d['enrollment']:,}" if d['enrollment'] else "—"
         rows_html += f"""
         <tr>
           <td>{state}</td>
-          <td>{d['report_date']}</td>
-          <td class="num">{enroll_fmt}</td>
-          <td class="num">{d['medicaid'] or '—'}</td>
-          <td class="num">{d['chip'] or '—'}</td>
+          <td>{format_period(d['report_date'])}</td>
+          <td class="num">{format_number(d['enrollment'])}</td>
+          <td class="num">{format_number(d['medicaid'])}</td>
+          <td class="num">{format_number(d['chip'])}</td>
         </tr>"""
     return rows_html
 
@@ -125,17 +149,17 @@ def build_revision_table(revisions):
         return '<tr><td colspan="6" class="empty">No field-level revisions detected yet — accumulating baseline vintages</td></tr>'
 
     rows_html = ""
-    for r in real[:100]:  # cap at 100 rows for page performance
-        old = r.get("old_value", "")
-        new = r.get("new_value", "")
+    for r in real[:100]:
+        old = format_number(r.get("old_value", ""))
+        new = format_number(r.get("new_value", ""))
         rows_html += f"""
         <tr>
           <td>{r.get('detected_date','')}</td>
           <td>{r.get('state_name','')}</td>
-          <td>{r.get('report_date','')}</td>
-          <td>{r.get('data_type','')}</td>
-          <td>{r.get('field','')}</td>
-          <td class="diff"><span class="old">{old}</span> → <span class="new">{new}</span></td>
+          <td>{format_period(r.get('report_date',''))}</td>
+          <td>{'Updated' if r.get('data_type','') == 'U' else 'Preliminary' if r.get('data_type','') == 'P' else r.get('data_type','')}</td>
+          <td>{r.get('field','').replace('_', ' ').title()}</td>
+          <td class="diff"><span class="old">{old}</span> &rarr; <span class="new">{new}</span></td>
         </tr>"""
     return rows_html
 
@@ -164,7 +188,6 @@ def build_html(records, revisions, last_poll):
       padding: 0 0 60px;
     }}
 
-    /* ── Header ── */
     .header {{
       background: #161b22;
       border-bottom: 1px solid #30363d;
@@ -205,10 +228,8 @@ def build_html(records, revisions, last_poll):
       max-width: 700px;
     }}
 
-    /* ── Main layout ── */
     .main {{ max-width: 1100px; margin: 0 auto; padding: 32px 24px 0; }}
 
-    /* ── Stats grid ── */
     .stats-grid {{
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
@@ -238,7 +259,6 @@ def build_html(records, revisions, last_poll):
     .stat-card.highlight .stat-value {{ color: #3fb950; }}
     .stat-card.warn      .stat-value {{ color: #f78166; }}
 
-    /* ── Section ── */
     .section {{ margin-bottom: 36px; }}
     .section-title {{
       font-size: 14px;
@@ -257,7 +277,6 @@ def build_html(records, revisions, last_poll):
       font-weight: 400;
     }}
 
-    /* ── Tables ── */
     .table-wrap {{ overflow-x: auto; border-radius: 8px; border: 1px solid #30363d; }}
     table {{
       width: 100%;
@@ -290,7 +309,6 @@ def build_html(records, revisions, last_poll):
     .new {{ color: #3fb950; }}
     .diff {{ font-family: monospace; font-size: 11px; white-space: nowrap; }}
 
-    /* ── Footer ── */
     .footer {{
       max-width: 1100px;
       margin: 40px auto 0;
@@ -306,7 +324,6 @@ def build_html(records, revisions, last_poll):
     .footer a {{ color: #58a6ff; text-decoration: none; }}
     .footer a:hover {{ text-decoration: underline; }}
 
-    /* ── Why this matters box ── */
     .info-box {{
       background: #161b22;
       border: 1px solid #30363d;
@@ -328,19 +345,18 @@ def build_html(records, revisions, last_poll):
     <span class="badge badge-blue">Public Dataset</span>
     <span class="badge badge-green">Updated Daily</span>
     <span class="badge badge-blue">Automated</span>
-    <a class="back-link" href="https://abhisek077.github.io/govt-stats-tracker" target="_blank">← Main tracker</a>
+    <a class="back-link" href="https://abhisek077.github.io/govt-stats-tracker" target="_blank">&larr; Main tracker</a>
   </div>
   <h1>Medicaid &amp; CHIP Enrollment Vintage Tracker</h1>
   <p class="subtitle">
-    Daily snapshots of CMS Medicaid &amp; CHIP monthly enrollment data — capturing silent retroactive
-    revisions that states submit without public announcement. When a state's enrollment figure
+    Daily snapshots of CMS Medicaid &amp; CHIP monthly enrollment data &mdash; capturing silent retroactive
+    revisions that states submit without public announcement. When a state&rsquo;s enrollment figure
     changes after publication, the before/after is recorded here permanently.
   </p>
 </div>
 
 <div class="main">
 
-  <!-- Stats -->
   <div class="stats-grid">
     <div class="stat-card">
       <div class="stat-value">{stats['days_running']}</div>
@@ -368,25 +384,25 @@ def build_html(records, revisions, last_poll):
     </div>
   </div>
 
-  <!-- Why this matters -->
   <div class="info-box">
     <strong>Why this matters:</strong> CMS publishes Preliminary enrollment figures ~1 week after
     each reporting period, then Updated figures ~1 month later. States also revise earlier months
-    retroactively when they detect errors. These revisions are silent — CMS overwrites the live
-    dataset without a changelog. This tracker is that changelog. With ~79 million Americans
-    currently enrolled in Medicaid and active policy changes in progress, the revision history
-    is a primary research record.
+    retroactively when they detect errors. These revisions are silent &mdash; CMS overwrites the live
+    dataset without a changelog. This tracker is that changelog.<br><br>
+    <strong>How to read this data:</strong> The state table below shows the most recent Updated
+    enrollment for each state. The revision log shows every time a previously published number
+    was changed &mdash; with the old and new values. Each daily snapshot is preserved as a compressed
+    file (~15 KB) so anyone can independently verify any revision by comparing two dated files.
     <br><br>
     <strong>Revision semantics:</strong> A value recorded for state X on date Y means the figure
-    returned by the CMS API on that date, before any subsequent revision — consistent with the
-    Philadelphia Fed's ALFRED vintage methodology.
+    returned by the CMS API on that date, before any subsequent revision &mdash; consistent with the
+    Philadelphia Fed&rsquo;s ALFRED vintage methodology.
   </div>
 
-  <!-- State enrollment table -->
   <div class="section">
     <div class="section-title">
       Latest enrollment by state
-      <span class="section-note">Most recent Updated figures · source: data.medicaid.gov</span>
+      <span class="section-note">Most recent Updated figures &middot; source: data.medicaid.gov</span>
     </div>
     <div class="table-wrap">
       <table>
@@ -395,22 +411,21 @@ def build_html(records, revisions, last_poll):
             <th>State / Territory</th>
             <th>Report month</th>
             <th class="num">Total Medicaid + CHIP</th>
-            <th class="num">Medicaid</th>
-            <th class="num">CHIP</th>
+            <th class="num">Medicaid only</th>
+            <th class="num">CHIP only</th>
           </tr>
         </thead>
         <tbody>
-          {state_rows if state_rows else '<tr><td colspan="5" class="empty">No data yet — run the tracker first</td></tr>'}
+          {state_rows if state_rows else '<tr><td colspan="5" class="empty">No data yet &mdash; waiting for first snapshot with Updated figures</td></tr>'}
         </tbody>
       </table>
     </div>
   </div>
 
-  <!-- Revision log -->
   <div class="section">
     <div class="section-title">
       Revision log
-      <span class="section-note">Field-level changes only · most recent first · capped at 100 rows</span>
+      <span class="section-note">Field-level changes only &middot; most recent first &middot; capped at 100 rows</span>
     </div>
     <div class="table-wrap">
       <table>
@@ -436,8 +451,9 @@ def build_html(records, revisions, last_poll):
 <div class="footer">
   <span>
     Data source: <a href="https://data.medicaid.gov/dataset/6165f45b-ca93-5bb5-9d06-db29c692a360" target="_blank">data.medicaid.gov</a>
-    · Last poll: {last_poll or today}
-    · Built: {today}
+    &middot; Last poll: {last_poll or today}
+    &middot; Built: {today}
+    &middot; Storage: ~15 KB/day (gzip compressed)
   </span>
   <span>
     <a href="https://github.com/Abhisek077/medicaid-enrollment-tracker" target="_blank">github.com/Abhisek077/medicaid-enrollment-tracker</a>
