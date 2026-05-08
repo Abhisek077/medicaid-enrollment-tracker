@@ -169,3 +169,12 @@ This tracker is part of a broader effort to document silent revisions in US fede
 Found a revision this tracker missed? Have a question about the data? Open an issue.
 
 *Not affiliated with CMS, HHS, or any federal agency. All data is from public government APIs.*
+
+## Citation
+
+If you use this data in research, journalism, or policy work, please cite:
+
+> Gupta, A. (2026). Medicaid Enrollment Vintage Tracker (v1.0.0) [Dataset]. 
+> Zenodo. https://doi.org/10.5281/zenodo.20091323
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20091323.svg)](https://doi.org/10.5281/zenodo.20091323)
