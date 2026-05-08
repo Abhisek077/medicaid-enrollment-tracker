@@ -50,16 +50,16 @@ PAGE_SIZE   = 1000   # records per API page
 # Adjust if CMS renames columns — check the API response on first run.
 KEY_FIELDS = [
     "state_name",
-    "report_date",
-    "data_type",
+    "reporting_period",       # format: "202309" (YYYYMM)
+    "preliminary_or_updated", # "U" = Updated, "P" = Preliminary
 ]
 VALUE_FIELDS = [
-    "total_medicaid_chip_enrollment",
-    "medicaid_enrollment",
-    "chip_enrollment",
-    "total_medicaid_and_chip_applications",
-    "total_eligibility_determinations",
-    "total_individuals_determined_eligible",
+    "total_medicaid_and_chip_enrollment",
+    "total_medicaid_enrollment",
+    "total_chip_enrollment",
+    "total_medicaid_and_chip_determinations",
+    "medicaid_and_chip_child_enrollment",
+    "total_adult_medicaid_enrollment",
 ]
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
@@ -234,8 +234,8 @@ def main():
         # Check for changed or new rows
         for key, curr_record in curr_keyed.items():
             state       = curr_record.get("state_name", "")
-            report_date = curr_record.get("report_date", "")
-            data_type   = curr_record.get("data_type", "")
+            report_date = curr_record.get("reporting_period", "")
+            data_type   = curr_record.get("preliminary_or_updated", "")
 
             if key not in prev_keyed:
                 new_rows += 1
