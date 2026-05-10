@@ -250,8 +250,15 @@ def main():
             prev_record = prev_keyed[key]
 
             for field in VALUE_FIELDS:
-                old_val = str(prev_record.get(field, "")).strip()
-                new_val = str(curr_record.get(field, "")).strip()
+                # Normalize None, "None", "null", "" all to "" before comparing
+                # Prevents false positives when schema changes between snapshots
+                def _norm(v):
+                    if v is None:
+                        return ""
+                    s = str(v).strip()
+                    return "" if s.lower() in ("none", "null", "nan") else s
+                old_val = _norm(prev_record.get(field))
+                new_val = _norm(curr_record.get(field))
                 if old_val != new_val:
                     revisions_found += 1
                     log_revision(
