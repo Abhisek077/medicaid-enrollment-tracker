@@ -1,1 +1,1703 @@
 detected_date,previous_vintage_date,state_name,report_date,data_type,field,old_value,new_value,source
+2026-05-30,2026-05-29,Alaska,202601,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Alaska,202602,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Alabama,202601,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Alabama,202602,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Arkansas,202601,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Arkansas,202602,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Arizona,202601,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Arizona,202602,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,California,202601,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,California,202602,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201706,P,total_medicaid_and_chip_enrollment,1419415,1412331,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201706,P,total_medicaid_enrollment,1288167,1261644,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201706,P,total_chip_enrollment,131248,150687,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201706,P,medicaid_and_chip_child_enrollment,628764,630075,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201706,U,total_medicaid_and_chip_enrollment,1419415,1412331,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201706,U,total_medicaid_enrollment,1288167,1261644,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201706,U,total_chip_enrollment,131248,150687,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201706,U,medicaid_and_chip_child_enrollment,628764,630075,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201707,P,total_medicaid_and_chip_enrollment,1415488,1407161,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201707,P,total_medicaid_enrollment,1284323,1256576,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201707,P,total_chip_enrollment,131165,150585,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201707,P,medicaid_and_chip_child_enrollment,624159,625160,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201707,U,total_medicaid_and_chip_enrollment,1415488,1407161,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201707,U,total_medicaid_enrollment,1284323,1256576,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201707,U,total_chip_enrollment,131165,150585,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201707,U,medicaid_and_chip_child_enrollment,624159,625160,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201708,P,total_medicaid_and_chip_enrollment,1421240,1411445,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201708,P,total_medicaid_enrollment,1288647,1259441,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201708,P,total_chip_enrollment,132593,152004,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201708,P,medicaid_and_chip_child_enrollment,625230,625775,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201708,U,total_medicaid_and_chip_enrollment,1421240,1411445,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201708,U,total_medicaid_enrollment,1288647,1259441,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201708,U,total_chip_enrollment,132593,152004,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201708,U,medicaid_and_chip_child_enrollment,625230,625775,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201709,P,total_medicaid_and_chip_enrollment,1416111,1404453,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201709,P,total_medicaid_enrollment,1284785,1253830,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201709,P,total_chip_enrollment,131326,150623,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201709,P,medicaid_and_chip_child_enrollment,620706,620499,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201709,U,total_medicaid_and_chip_enrollment,1416111,1404453,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201709,U,total_medicaid_enrollment,1284785,1253830,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201709,U,total_chip_enrollment,131326,150623,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201709,U,medicaid_and_chip_child_enrollment,620706,620499,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201710,P,total_medicaid_and_chip_enrollment,1378140,1364510,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201710,P,total_medicaid_enrollment,1248396,1215585,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201710,P,total_chip_enrollment,129744,148925,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201710,P,medicaid_and_chip_child_enrollment,614334,613587,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201710,U,total_medicaid_and_chip_enrollment,1378140,1364510,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201710,U,total_medicaid_enrollment,1248396,1215585,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201710,U,total_chip_enrollment,129744,148925,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201710,U,medicaid_and_chip_child_enrollment,614334,613587,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201711,P,total_medicaid_and_chip_enrollment,1372887,1357587,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201711,P,total_medicaid_enrollment,1242969,1208444,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201711,P,total_chip_enrollment,129918,149143,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201711,P,medicaid_and_chip_child_enrollment,611762,610579,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201711,U,total_medicaid_and_chip_enrollment,1372887,1357587,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201711,U,total_medicaid_enrollment,1242969,1208444,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201711,U,total_chip_enrollment,129918,149143,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201711,U,medicaid_and_chip_child_enrollment,611762,610579,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201712,P,total_medicaid_and_chip_enrollment,1376762,1359978,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201712,P,total_medicaid_enrollment,1247005,1211115,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201712,P,total_chip_enrollment,129757,148863,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201712,P,medicaid_and_chip_child_enrollment,609800,608181,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201712,U,total_medicaid_and_chip_enrollment,1376762,1359978,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201712,U,total_medicaid_enrollment,1247005,1211115,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201712,U,total_chip_enrollment,129757,148863,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201712,U,medicaid_and_chip_child_enrollment,609800,608181,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201801,P,total_medicaid_and_chip_enrollment,1362702,1342365,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201801,P,total_medicaid_enrollment,1233907,1194608,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201801,P,total_chip_enrollment,128795,147757,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201801,P,medicaid_and_chip_child_enrollment,608056,605959,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201801,U,total_medicaid_and_chip_enrollment,1362702,1342365,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201801,U,total_medicaid_enrollment,1233907,1194608,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201801,U,total_chip_enrollment,128795,147757,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201801,U,medicaid_and_chip_child_enrollment,608056,605959,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201802,P,total_medicaid_and_chip_enrollment,1359670,1337525,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201802,P,total_medicaid_enrollment,1226555,1185562,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201802,P,total_chip_enrollment,133115,151963,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201802,P,medicaid_and_chip_child_enrollment,607026,604455,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201802,U,total_medicaid_and_chip_enrollment,1359670,1337525,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201802,U,total_medicaid_enrollment,1226555,1185562,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201802,U,total_chip_enrollment,133115,151963,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201802,U,medicaid_and_chip_child_enrollment,607026,604455,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201803,P,total_medicaid_and_chip_enrollment,1355620,1331559,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201803,P,total_medicaid_enrollment,1221133,1178262,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201803,P,total_chip_enrollment,134487,153297,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201803,P,medicaid_and_chip_child_enrollment,603635,600597,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201803,U,total_medicaid_and_chip_enrollment,1355620,1331559,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201803,U,total_medicaid_enrollment,1221133,1178262,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201803,U,total_chip_enrollment,134487,153297,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201803,U,medicaid_and_chip_child_enrollment,603635,600597,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201804,P,total_medicaid_and_chip_enrollment,1342889,1316684,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201804,P,total_medicaid_enrollment,1207650,1163003,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201804,P,total_chip_enrollment,135239,153681,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201804,P,medicaid_and_chip_child_enrollment,599720,596128,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201804,U,total_medicaid_and_chip_enrollment,1342889,1316684,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201804,U,total_medicaid_enrollment,1207650,1163003,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201804,U,total_chip_enrollment,135239,153681,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201804,U,medicaid_and_chip_child_enrollment,599720,596128,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201805,P,total_medicaid_and_chip_enrollment,1341583,1313937,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201805,P,total_medicaid_enrollment,1206514,1160454,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201805,P,total_chip_enrollment,135069,153483,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201805,P,medicaid_and_chip_child_enrollment,597480,593498,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201805,U,total_medicaid_and_chip_enrollment,1341583,1313937,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201805,U,total_medicaid_enrollment,1206514,1160454,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201805,U,total_chip_enrollment,135069,153483,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201805,U,medicaid_and_chip_child_enrollment,597480,593498,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201806,P,total_medicaid_and_chip_enrollment,1345504,1316199,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201806,P,total_medicaid_enrollment,1210851,1163259,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201806,P,total_chip_enrollment,134653,152940,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201806,P,medicaid_and_chip_child_enrollment,597752,593241,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201806,U,total_medicaid_and_chip_enrollment,1345504,1316199,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201806,U,total_medicaid_enrollment,1210851,1163259,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201806,U,total_chip_enrollment,134653,152940,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201806,U,medicaid_and_chip_child_enrollment,597752,593241,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201807,P,total_medicaid_and_chip_enrollment,1341768,1311538,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201807,P,total_medicaid_enrollment,1206017,1157582,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201807,P,total_chip_enrollment,135751,153956,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201807,P,medicaid_and_chip_child_enrollment,597689,592950,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201807,U,total_medicaid_and_chip_enrollment,1341768,1311538,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201807,U,total_medicaid_enrollment,1206017,1157582,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201807,U,total_chip_enrollment,135751,153956,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201807,U,medicaid_and_chip_child_enrollment,597689,592950,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201808,P,total_medicaid_and_chip_enrollment,1345880,1315094,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201808,P,total_medicaid_enrollment,1210111,1161196,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201808,P,total_chip_enrollment,135769,153898,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201808,P,medicaid_and_chip_child_enrollment,597913,593011,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201808,U,total_medicaid_and_chip_enrollment,1345880,1315094,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201808,U,total_medicaid_enrollment,1210111,1161196,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201808,U,total_chip_enrollment,135769,153898,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201808,U,medicaid_and_chip_child_enrollment,597913,593011,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201809,P,total_medicaid_and_chip_enrollment,1346964,1315452,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201809,P,total_medicaid_enrollment,1212594,1163012,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201809,P,total_chip_enrollment,134370,152440,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201809,P,medicaid_and_chip_child_enrollment,596731,591602,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201809,U,total_medicaid_and_chip_enrollment,1346964,1315452,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201809,U,total_medicaid_enrollment,1212594,1163012,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201809,U,total_chip_enrollment,134370,152440,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201809,U,medicaid_and_chip_child_enrollment,596731,591602,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201810,P,total_medicaid_and_chip_enrollment,1337106,1305001,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201810,P,total_medicaid_enrollment,1202712,1152617,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201810,P,total_chip_enrollment,134394,152384,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201810,P,medicaid_and_chip_child_enrollment,593690,588370,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201810,U,total_medicaid_and_chip_enrollment,1337106,1305001,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201810,U,total_medicaid_enrollment,1202712,1152617,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201810,U,total_chip_enrollment,134394,152384,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201810,U,medicaid_and_chip_child_enrollment,593690,588370,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201811,P,total_medicaid_and_chip_enrollment,1327166,1294716,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201811,P,total_medicaid_enrollment,1191172,1140654,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201811,P,total_chip_enrollment,135994,154062,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201811,P,medicaid_and_chip_child_enrollment,593376,587957,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201811,U,total_medicaid_and_chip_enrollment,1327166,1294716,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201811,U,total_medicaid_enrollment,1191172,1140654,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201811,U,total_chip_enrollment,135994,154062,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201811,U,medicaid_and_chip_child_enrollment,593376,587957,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201812,P,total_medicaid_and_chip_enrollment,1320924,1288424,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201812,P,total_medicaid_enrollment,1187278,1136768,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201812,P,total_chip_enrollment,133646,151656,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201812,P,medicaid_and_chip_child_enrollment,588671,583255,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201812,U,total_medicaid_and_chip_enrollment,1320924,1288424,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201812,U,total_medicaid_enrollment,1187278,1136768,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201812,U,total_chip_enrollment,133646,151656,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201812,U,medicaid_and_chip_child_enrollment,588671,583255,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201901,P,total_medicaid_and_chip_enrollment,1310744,1278203,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201901,P,total_medicaid_enrollment,1178085,1127622,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201901,P,total_chip_enrollment,132659,150581,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201901,P,medicaid_and_chip_child_enrollment,587535,582060,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201901,U,total_medicaid_and_chip_enrollment,1310744,1278203,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201901,U,total_medicaid_enrollment,1178085,1127622,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201901,U,total_chip_enrollment,132659,150581,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201901,U,medicaid_and_chip_child_enrollment,587535,582060,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201902,P,total_medicaid_and_chip_enrollment,1308718,1276132,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201902,P,total_medicaid_enrollment,1175760,1125199,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201902,P,total_chip_enrollment,132958,150933,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201902,P,medicaid_and_chip_child_enrollment,587850,582388,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201902,U,total_medicaid_and_chip_enrollment,1308718,1276132,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201902,U,total_medicaid_enrollment,1175760,1125199,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201902,U,total_chip_enrollment,132958,150933,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201902,U,medicaid_and_chip_child_enrollment,587850,582388,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201903,P,total_medicaid_and_chip_enrollment,1301526,1269002,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201903,P,total_medicaid_enrollment,1168803,1118298,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201903,P,total_chip_enrollment,132723,150704,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201903,P,medicaid_and_chip_child_enrollment,585286,579850,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201903,U,total_medicaid_and_chip_enrollment,1301526,1269002,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201903,U,total_medicaid_enrollment,1168803,1118298,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201903,U,total_chip_enrollment,132723,150704,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201903,U,medicaid_and_chip_child_enrollment,585286,579850,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201904,P,total_medicaid_and_chip_enrollment,1290326,1257871,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201904,P,total_medicaid_enrollment,1158583,1108156,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201904,P,total_chip_enrollment,131743,149715,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201904,P,medicaid_and_chip_child_enrollment,583144,577798,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201904,U,total_medicaid_and_chip_enrollment,1290326,1257871,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201904,U,total_medicaid_enrollment,1158583,1108156,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201904,U,total_chip_enrollment,131743,149715,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201904,U,medicaid_and_chip_child_enrollment,583144,577798,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201905,P,total_medicaid_and_chip_enrollment,1290573,1258198,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201905,P,total_medicaid_enrollment,1159254,1108872,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201905,P,total_chip_enrollment,131319,149326,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201905,P,medicaid_and_chip_child_enrollment,582711,577463,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201905,U,total_medicaid_and_chip_enrollment,1290573,1258198,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201905,U,total_medicaid_enrollment,1159254,1108872,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201905,U,total_chip_enrollment,131319,149326,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201905,U,medicaid_and_chip_child_enrollment,582711,577463,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201906,P,total_medicaid_and_chip_enrollment,1287236,1254944,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201906,P,total_medicaid_enrollment,1157665,1107337,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201906,P,total_chip_enrollment,129571,147607,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201906,P,medicaid_and_chip_child_enrollment,579681,574516,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201906,U,total_medicaid_and_chip_enrollment,1287236,1254944,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201906,U,total_medicaid_enrollment,1157665,1107337,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201906,U,total_chip_enrollment,129571,147607,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201906,U,medicaid_and_chip_child_enrollment,579681,574516,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201907,P,total_medicaid_and_chip_enrollment,1280142,1247830,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201907,P,total_medicaid_enrollment,1150467,1100101,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201907,P,total_chip_enrollment,129675,147729,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201907,P,medicaid_and_chip_child_enrollment,577807,572690,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201907,U,total_medicaid_and_chip_enrollment,1280142,1247830,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201907,U,total_medicaid_enrollment,1150467,1100101,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201907,U,total_chip_enrollment,129675,147729,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201907,U,medicaid_and_chip_child_enrollment,577807,572690,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201908,P,total_medicaid_and_chip_enrollment,1282442,1250096,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201908,P,total_medicaid_enrollment,1153331,1102958,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201908,P,total_chip_enrollment,129111,147138,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201908,P,medicaid_and_chip_child_enrollment,577053,571939,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201908,U,total_medicaid_and_chip_enrollment,1282442,1250096,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201908,U,total_medicaid_enrollment,1153331,1102958,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201908,U,total_chip_enrollment,129111,147138,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201908,U,medicaid_and_chip_child_enrollment,577053,571939,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201909,P,total_medicaid_and_chip_enrollment,1282653,1250328,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201909,P,total_medicaid_enrollment,1154733,1104350,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201909,P,total_chip_enrollment,127920,145978,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201909,P,medicaid_and_chip_child_enrollment,575228,570135,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201909,U,total_medicaid_and_chip_enrollment,1282653,1250328,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201909,U,total_medicaid_enrollment,1154733,1104350,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201909,U,total_chip_enrollment,127920,145978,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201909,U,medicaid_and_chip_child_enrollment,575228,570135,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201910,P,total_medicaid_and_chip_enrollment,1279668,1247433,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201910,P,total_medicaid_enrollment,1151665,1101359,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201910,P,total_chip_enrollment,128003,146074,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201910,P,medicaid_and_chip_child_enrollment,573673,568652,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201910,U,total_medicaid_and_chip_enrollment,1279668,1247433,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201910,U,total_medicaid_enrollment,1151665,1101359,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201910,U,total_chip_enrollment,128003,146074,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201910,U,medicaid_and_chip_child_enrollment,573673,568652,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201911,P,total_medicaid_and_chip_enrollment,1281127,1249113,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201911,P,total_medicaid_enrollment,1153375,1103204,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201911,P,total_chip_enrollment,127752,145909,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201911,P,medicaid_and_chip_child_enrollment,572126,567179,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201911,U,total_medicaid_and_chip_enrollment,1281127,1249113,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201911,U,total_medicaid_enrollment,1153375,1103204,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201911,U,total_chip_enrollment,127752,145909,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201911,U,medicaid_and_chip_child_enrollment,572126,567179,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201912,P,total_medicaid_and_chip_enrollment,1275430,1247433,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201912,P,total_medicaid_enrollment,1148814,1101359,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201912,P,total_chip_enrollment,126616,146074,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201912,P,medicaid_and_chip_child_enrollment,570312,568652,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201912,U,total_medicaid_and_chip_enrollment,1275430,1247433,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201912,U,total_medicaid_enrollment,1148814,1101359,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201912,U,total_chip_enrollment,126616,146074,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,201912,U,medicaid_and_chip_child_enrollment,570312,568652,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202001,P,total_medicaid_and_chip_enrollment,1272902,1241291,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202001,P,total_medicaid_enrollment,1146727,1097107,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202001,P,total_chip_enrollment,126175,144184,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202001,P,medicaid_and_chip_child_enrollment,570131,565391,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202001,U,total_medicaid_and_chip_enrollment,1272902,1241291,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202001,U,total_medicaid_enrollment,1146727,1097107,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202001,U,total_chip_enrollment,126175,144184,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202001,U,medicaid_and_chip_child_enrollment,570131,565391,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202002,P,total_medicaid_and_chip_enrollment,1266680,1235308,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202002,P,total_medicaid_enrollment,1141149,1091821,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202002,P,total_chip_enrollment,125531,143487,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202002,P,medicaid_and_chip_child_enrollment,566484,561855,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202002,U,total_medicaid_and_chip_enrollment,1266680,1235308,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202002,U,total_medicaid_enrollment,1141149,1091821,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202002,U,total_chip_enrollment,125531,143487,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202002,U,medicaid_and_chip_child_enrollment,566484,561855,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202003,P,total_medicaid_and_chip_enrollment,1259742,1228699,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202003,P,total_medicaid_enrollment,1135604,1086492,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202003,P,total_chip_enrollment,124138,142207,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202003,P,medicaid_and_chip_child_enrollment,563380,558890,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202003,U,total_medicaid_and_chip_enrollment,1259742,1228699,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202003,U,total_medicaid_enrollment,1135604,1086492,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202003,U,total_chip_enrollment,124138,142207,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202003,U,medicaid_and_chip_child_enrollment,563380,558890,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202004,P,total_medicaid_and_chip_enrollment,1296936,1266241,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202004,P,total_medicaid_enrollment,1174876,1126166,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202004,P,total_chip_enrollment,122060,140075,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202004,P,medicaid_and_chip_child_enrollment,571783,567395,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202004,U,total_medicaid_and_chip_enrollment,1296936,1266241,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202004,U,total_medicaid_enrollment,1174876,1126166,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202004,U,total_chip_enrollment,122060,140075,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202004,U,medicaid_and_chip_child_enrollment,571783,567395,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202005,P,total_medicaid_and_chip_enrollment,1316135,1285584,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202005,P,total_medicaid_enrollment,1194350,1145786,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202005,P,total_chip_enrollment,121785,139798,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202005,P,medicaid_and_chip_child_enrollment,576913,572610,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202005,U,total_medicaid_and_chip_enrollment,1316135,1285584,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202005,U,total_medicaid_enrollment,1194350,1145786,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202005,U,total_chip_enrollment,121785,139798,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202005,U,medicaid_and_chip_child_enrollment,576913,572610,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202006,P,total_medicaid_and_chip_enrollment,1336974,1306533,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202006,P,total_medicaid_enrollment,1215158,1166711,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202006,P,total_chip_enrollment,121816,139822,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202006,P,medicaid_and_chip_child_enrollment,582631,578376,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202006,U,total_medicaid_and_chip_enrollment,1336974,1306533,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202006,U,total_medicaid_enrollment,1215158,1166711,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202006,U,total_chip_enrollment,121816,139822,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202006,U,medicaid_and_chip_child_enrollment,582631,578376,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202007,P,total_medicaid_and_chip_enrollment,1357050,1326736,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202007,P,total_medicaid_enrollment,1235343,1187016,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202007,P,total_chip_enrollment,121707,139720,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202007,P,medicaid_and_chip_child_enrollment,588111,583893,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202007,U,total_medicaid_and_chip_enrollment,1357050,1326736,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202007,U,total_medicaid_enrollment,1235343,1187016,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202007,U,total_chip_enrollment,121707,139720,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202007,U,medicaid_and_chip_child_enrollment,588111,583893,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202008,P,total_medicaid_and_chip_enrollment,1377505,1347272,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202008,P,total_medicaid_enrollment,1256191,1207942,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202008,P,total_chip_enrollment,121314,139330,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202008,P,medicaid_and_chip_child_enrollment,593389,589197,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202008,U,total_medicaid_and_chip_enrollment,1377505,1347272,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202008,U,total_medicaid_enrollment,1256191,1207942,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202008,U,total_chip_enrollment,121314,139330,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202008,U,medicaid_and_chip_child_enrollment,593389,589197,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202009,P,total_medicaid_and_chip_enrollment,1396635,1366522,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202009,P,total_medicaid_enrollment,1276185,1228077,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202009,P,total_chip_enrollment,120450,138445,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202009,P,medicaid_and_chip_child_enrollment,598589,594438,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202009,U,total_medicaid_and_chip_enrollment,1396635,1366522,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202009,U,total_medicaid_enrollment,1276185,1228077,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202009,U,total_chip_enrollment,120450,138445,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202009,U,medicaid_and_chip_child_enrollment,598589,594438,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202010,P,total_medicaid_and_chip_enrollment,1414220,1384250,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202010,P,total_medicaid_enrollment,1295141,1247169,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202010,P,total_chip_enrollment,119079,137081,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202010,P,medicaid_and_chip_child_enrollment,602600,598501,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202010,U,total_medicaid_and_chip_enrollment,1414220,1384250,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202010,U,total_medicaid_enrollment,1295141,1247169,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202010,U,total_chip_enrollment,119079,137081,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202010,U,medicaid_and_chip_child_enrollment,602600,598501,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202011,P,total_medicaid_and_chip_enrollment,1431754,1401909,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202011,P,total_medicaid_enrollment,1313665,1265795,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202011,P,total_chip_enrollment,118089,136114,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202011,P,medicaid_and_chip_child_enrollment,605595,601566,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202011,U,total_medicaid_and_chip_enrollment,1431754,1401909,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202011,U,total_medicaid_enrollment,1313665,1265795,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202011,U,total_chip_enrollment,118089,136114,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202011,U,medicaid_and_chip_child_enrollment,605595,601566,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202012,P,total_medicaid_and_chip_enrollment,1449824,1420016,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202012,P,total_medicaid_enrollment,1333559,1285757,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202012,P,total_chip_enrollment,116265,134259,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202012,P,medicaid_and_chip_child_enrollment,607985,603983,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202012,U,total_medicaid_and_chip_enrollment,1449824,1420016,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202012,U,total_medicaid_enrollment,1333559,1285757,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202012,U,total_chip_enrollment,116265,134259,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202012,U,medicaid_and_chip_child_enrollment,607985,603983,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202101,P,total_medicaid_and_chip_enrollment,1466436,1436798,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202101,P,total_medicaid_enrollment,1352832,1305248,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202101,P,total_chip_enrollment,113604,131550,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202101,P,medicaid_and_chip_child_enrollment,610870,606944,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202101,U,total_medicaid_and_chip_enrollment,1466436,1436798,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202101,U,total_medicaid_enrollment,1352832,1305248,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202101,U,total_chip_enrollment,113604,131550,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202101,U,medicaid_and_chip_child_enrollment,610870,606944,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202102,P,total_medicaid_and_chip_enrollment,1477439,1447864,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202102,P,total_medicaid_enrollment,1364361,1316884,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202102,P,total_chip_enrollment,113078,130980,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202102,P,medicaid_and_chip_child_enrollment,612802,608935,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202102,U,total_medicaid_and_chip_enrollment,1477439,1447864,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202102,U,total_medicaid_enrollment,1364361,1316884,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202102,U,total_chip_enrollment,113078,130980,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202102,U,medicaid_and_chip_child_enrollment,612802,608935,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202103,P,total_medicaid_and_chip_enrollment,1489827,1460271,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202103,P,total_medicaid_enrollment,1376628,1329255,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202103,P,total_chip_enrollment,113199,131016,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202103,P,medicaid_and_chip_child_enrollment,614788,610953,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202103,U,total_medicaid_and_chip_enrollment,1489827,1460271,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202103,U,total_medicaid_enrollment,1376628,1329255,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202103,U,total_chip_enrollment,113199,131016,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202103,U,medicaid_and_chip_child_enrollment,614788,610953,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202104,P,total_medicaid_and_chip_enrollment,1501448,1471990,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202104,P,total_medicaid_enrollment,1390142,1342873,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202104,P,total_chip_enrollment,111306,129117,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202104,P,medicaid_and_chip_child_enrollment,616407,612626,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202104,U,total_medicaid_and_chip_enrollment,1501448,1471990,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202104,U,total_medicaid_enrollment,1390142,1342873,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202104,U,total_chip_enrollment,111306,129117,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202104,U,medicaid_and_chip_child_enrollment,616407,612626,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202105,P,total_medicaid_and_chip_enrollment,1511858,1482472,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202105,P,total_medicaid_enrollment,1401524,1354312,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202105,P,total_chip_enrollment,110334,128160,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202105,P,medicaid_and_chip_child_enrollment,617975,614215,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202105,U,total_medicaid_and_chip_enrollment,1511858,1482472,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202105,U,total_medicaid_enrollment,1401524,1354312,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202105,U,total_chip_enrollment,110334,128160,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202105,U,medicaid_and_chip_child_enrollment,617975,614215,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202106,P,total_medicaid_and_chip_enrollment,1522471,1493164,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202106,P,total_medicaid_enrollment,1412780,1365685,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202106,P,total_chip_enrollment,109691,127479,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202106,P,medicaid_and_chip_child_enrollment,619719,616012,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202106,U,total_medicaid_and_chip_enrollment,1522471,1493164,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202106,U,total_medicaid_enrollment,1412780,1365685,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202106,U,total_chip_enrollment,109691,127479,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202106,U,medicaid_and_chip_child_enrollment,619719,616012,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202107,P,total_medicaid_and_chip_enrollment,1532326,1503228,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202107,P,total_medicaid_enrollment,1423267,1376487,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202107,P,total_chip_enrollment,109059,126741,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202107,P,medicaid_and_chip_child_enrollment,621256,617650,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202107,U,total_medicaid_and_chip_enrollment,1532326,1503228,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202107,U,total_medicaid_enrollment,1423267,1376487,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202107,U,total_chip_enrollment,109059,126741,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202107,U,medicaid_and_chip_child_enrollment,621256,617650,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202108,P,total_medicaid_and_chip_enrollment,1544088,1515173,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202108,P,total_medicaid_enrollment,1435110,1388525,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202108,P,total_chip_enrollment,108978,126648,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202108,P,medicaid_and_chip_child_enrollment,623489,619992,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202108,U,total_medicaid_and_chip_enrollment,1544088,1515173,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202108,U,total_medicaid_enrollment,1435110,1388525,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202108,U,total_chip_enrollment,108978,126648,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202108,U,medicaid_and_chip_child_enrollment,623489,619992,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202109,P,total_medicaid_and_chip_enrollment,1553677,1524993,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202109,P,total_medicaid_enrollment,1444409,1398094,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202109,P,total_chip_enrollment,109268,126899,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202109,P,medicaid_and_chip_child_enrollment,625019,621600,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202109,U,total_medicaid_and_chip_enrollment,1553677,1524993,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202109,U,total_medicaid_enrollment,1444409,1398094,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202109,U,total_chip_enrollment,109268,126899,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202109,U,medicaid_and_chip_child_enrollment,625019,621600,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202110,P,total_medicaid_and_chip_enrollment,1563568,1535349,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202110,P,total_medicaid_enrollment,1456320,1410479,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202110,P,total_chip_enrollment,107248,124870,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202110,P,medicaid_and_chip_child_enrollment,626208,622991,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202110,U,total_medicaid_and_chip_enrollment,1563568,1535349,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202110,U,total_medicaid_enrollment,1456320,1410479,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202110,U,total_chip_enrollment,107248,124870,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202110,U,medicaid_and_chip_child_enrollment,626208,622991,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202111,P,total_medicaid_and_chip_enrollment,1574298,1546336,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202111,P,total_medicaid_enrollment,1467166,1421494,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202111,P,total_chip_enrollment,107132,124842,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202111,P,medicaid_and_chip_child_enrollment,627637,624516,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202111,U,total_medicaid_and_chip_enrollment,1574298,1546336,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202111,U,total_medicaid_enrollment,1467166,1421494,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202111,U,total_chip_enrollment,107132,124842,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202111,U,medicaid_and_chip_child_enrollment,627637,624516,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202112,P,total_medicaid_and_chip_enrollment,1585726,1558106,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202112,P,total_medicaid_enrollment,1478627,1433414,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202112,P,total_chip_enrollment,107099,124692,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202112,P,medicaid_and_chip_child_enrollment,629380,626476,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202112,U,total_medicaid_and_chip_enrollment,1585726,1558106,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202112,U,total_medicaid_enrollment,1478627,1433414,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202112,U,total_chip_enrollment,107099,124692,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202112,U,medicaid_and_chip_child_enrollment,629380,626476,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202201,P,total_medicaid_and_chip_enrollment,1598614,1571539,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202201,P,total_medicaid_enrollment,1492249,1447900,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202201,P,total_chip_enrollment,106365,123639,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202201,P,medicaid_and_chip_child_enrollment,630969,628255,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202201,U,total_medicaid_and_chip_enrollment,1598614,1571539,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202201,U,total_medicaid_enrollment,1492249,1447900,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202201,U,total_chip_enrollment,106365,123639,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202201,U,medicaid_and_chip_child_enrollment,630969,628255,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202202,P,total_medicaid_and_chip_enrollment,1604957,1578271,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202202,P,total_medicaid_enrollment,1499029,1454944,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202202,P,total_chip_enrollment,105928,123327,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202202,P,medicaid_and_chip_child_enrollment,631759,629253,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202202,U,total_medicaid_and_chip_enrollment,1604957,1578271,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202202,U,total_medicaid_enrollment,1499029,1454944,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202202,U,total_chip_enrollment,105928,123327,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202202,U,medicaid_and_chip_child_enrollment,631759,629253,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202203,P,total_medicaid_and_chip_enrollment,1613405,1587524,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202203,P,total_medicaid_enrollment,1508177,1465005,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202203,P,total_chip_enrollment,105228,122519,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202203,P,medicaid_and_chip_child_enrollment,632763,630586,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202203,U,total_medicaid_and_chip_enrollment,1613405,1587524,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202203,U,total_medicaid_enrollment,1508177,1465005,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202203,U,total_chip_enrollment,105228,122519,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202203,U,medicaid_and_chip_child_enrollment,632763,630586,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202204,P,total_medicaid_and_chip_enrollment,1620385,1596366,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202204,P,total_medicaid_enrollment,1517028,1476447,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202204,P,total_chip_enrollment,103357,119919,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202204,P,medicaid_and_chip_child_enrollment,633031,631348,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202204,U,total_medicaid_and_chip_enrollment,1620385,1596366,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202204,U,total_medicaid_enrollment,1517028,1476447,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202204,U,total_chip_enrollment,103357,119919,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202204,U,medicaid_and_chip_child_enrollment,633031,631348,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202205,P,total_medicaid_and_chip_enrollment,1625864,1604668,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202205,P,total_medicaid_enrollment,1523033,1485472,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202205,P,total_chip_enrollment,102831,119196,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202205,P,medicaid_and_chip_child_enrollment,633197,632657,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202205,U,total_medicaid_and_chip_enrollment,1625864,1604668,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202205,U,total_medicaid_enrollment,1523033,1485472,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202205,U,total_chip_enrollment,102831,119196,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202205,U,medicaid_and_chip_child_enrollment,633197,632657,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202206,P,total_medicaid_and_chip_enrollment,1630445,1613662,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202206,P,total_medicaid_enrollment,1529380,1495494,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202206,P,total_chip_enrollment,101065,118168,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202206,P,medicaid_and_chip_child_enrollment,633037,634510,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202206,U,total_medicaid_and_chip_enrollment,1635385,1613662,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202206,U,total_medicaid_enrollment,1534581,1495494,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202206,U,total_chip_enrollment,100804,118168,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202206,U,medicaid_and_chip_child_enrollment,634936,634510,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202207,P,total_medicaid_and_chip_enrollment,1641925,1625112,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202207,P,total_medicaid_enrollment,1541229,1506952,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202207,P,total_chip_enrollment,100696,118160,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202207,P,medicaid_and_chip_child_enrollment,635458,636821,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202207,U,total_medicaid_and_chip_enrollment,1646836,1625112,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202207,U,total_medicaid_enrollment,1545522,1506952,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202207,U,total_chip_enrollment,101314,118160,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202207,U,medicaid_and_chip_child_enrollment,637768,636821,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202208,P,total_medicaid_and_chip_enrollment,1651983,1636357,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202208,P,total_medicaid_enrollment,1550973,1517616,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202208,P,total_chip_enrollment,101010,118741,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202208,P,medicaid_and_chip_child_enrollment,638274,639746,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202208,U,total_medicaid_and_chip_enrollment,1656830,1636357,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202208,U,total_medicaid_enrollment,1555695,1517616,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202208,U,total_chip_enrollment,101135,118741,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202208,U,medicaid_and_chip_child_enrollment,640225,639746,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202209,P,total_medicaid_and_chip_enrollment,1660825,1645708,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202209,P,total_medicaid_enrollment,1560456,1526920,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202209,P,total_chip_enrollment,100369,118788,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202209,P,medicaid_and_chip_child_enrollment,640141,641575,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202209,U,total_medicaid_and_chip_enrollment,1666668,1645708,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202209,U,total_medicaid_enrollment,1565724,1526920,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202209,U,total_chip_enrollment,100944,118788,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202209,U,medicaid_and_chip_child_enrollment,642522,641575,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202210,P,total_medicaid_and_chip_enrollment,1670835,1655341,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202210,P,total_medicaid_enrollment,1570303,1535855,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202210,P,total_chip_enrollment,100532,119486,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202210,P,medicaid_and_chip_child_enrollment,642038,643050,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202210,U,total_medicaid_and_chip_enrollment,1676215,1655341,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202210,U,total_medicaid_enrollment,1575376,1535855,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202210,U,total_chip_enrollment,100839,119486,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202210,U,medicaid_and_chip_child_enrollment,644069,643050,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202211,P,total_medicaid_and_chip_enrollment,1681967,1667588,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202211,P,total_medicaid_enrollment,1581704,1546988,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202211,P,total_chip_enrollment,100263,120600,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202211,P,medicaid_and_chip_child_enrollment,644315,645675,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202211,U,total_medicaid_and_chip_enrollment,1687184,1667588,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202211,U,total_medicaid_enrollment,1585335,1546988,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202211,U,total_chip_enrollment,101849,120600,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202211,U,medicaid_and_chip_child_enrollment,646127,645675,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202212,P,total_medicaid_and_chip_enrollment,1692321,1680493,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202212,P,total_medicaid_enrollment,1591007,1559653,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202212,P,total_chip_enrollment,101314,120840,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202212,P,medicaid_and_chip_child_enrollment,645834,648210,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202212,U,total_medicaid_and_chip_enrollment,1699630,1680493,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202212,U,total_medicaid_enrollment,1596841,1559653,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202212,U,total_chip_enrollment,102789,120840,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202212,U,medicaid_and_chip_child_enrollment,648445,648210,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202301,P,total_medicaid_and_chip_enrollment,1705866,1693959,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202301,P,total_medicaid_enrollment,1604242,1574402,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202301,P,total_chip_enrollment,101624,119557,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202301,P,medicaid_and_chip_child_enrollment,648068,650116,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202301,U,total_medicaid_and_chip_enrollment,1712273,1693959,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202301,U,total_medicaid_enrollment,1610060,1574402,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202301,U,total_chip_enrollment,102213,119557,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202301,U,medicaid_and_chip_child_enrollment,650249,650116,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202302,P,total_medicaid_and_chip_enrollment,1715943,1701948,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202302,P,total_medicaid_enrollment,1613872,1581702,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202302,P,total_chip_enrollment,102071,120246,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202302,P,medicaid_and_chip_child_enrollment,650049,651593,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202302,U,total_medicaid_and_chip_enrollment,1722639,1701948,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202302,U,total_medicaid_enrollment,1619548,1581702,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202302,U,total_chip_enrollment,103091,120246,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202302,U,medicaid_and_chip_child_enrollment,652517,651593,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202303,P,total_medicaid_and_chip_enrollment,1726651,1711007,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202303,P,total_medicaid_enrollment,1624378,1591111,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202303,P,total_chip_enrollment,102273,119896,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202303,P,medicaid_and_chip_child_enrollment,651850,653060,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202303,U,total_medicaid_and_chip_enrollment,1705007,1711007,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202303,U,total_medicaid_enrollment,1603310,1591111,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202303,U,total_chip_enrollment,101697,119896,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202303,U,medicaid_and_chip_child_enrollment,647698,653060,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202304,P,total_medicaid_and_chip_enrollment,1709809,1720463,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202304,P,total_medicaid_enrollment,1611316,1603884,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202304,P,total_chip_enrollment,98493,116579,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202304,P,medicaid_and_chip_child_enrollment,646410,653301,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202304,U,total_medicaid_and_chip_enrollment,1713809,1720463,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202304,U,total_medicaid_enrollment,1614994,1603884,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202304,U,total_chip_enrollment,98815,116579,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202304,U,medicaid_and_chip_child_enrollment,647669,653301,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202305,P,total_medicaid_and_chip_enrollment,1715088,1728610,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202305,P,total_medicaid_enrollment,1617163,1612157,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202305,P,total_chip_enrollment,97925,116453,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202305,P,medicaid_and_chip_child_enrollment,646253,654595,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202305,U,total_medicaid_and_chip_enrollment,1722323,1728610,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202305,U,total_medicaid_enrollment,1623277,1612157,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202305,U,total_chip_enrollment,99046,116453,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202305,U,medicaid_and_chip_child_enrollment,649030,654595,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202306,P,total_medicaid_and_chip_enrollment,1682785,1698165,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202306,P,total_medicaid_enrollment,1583941,1580948,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202306,P,total_chip_enrollment,98844,117217,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202306,P,medicaid_and_chip_child_enrollment,634932,644259,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202306,U,total_medicaid_and_chip_enrollment,1689842,1698165,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202306,U,total_medicaid_enrollment,1590633,1580948,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202306,U,total_chip_enrollment,99209,117217,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202306,U,medicaid_and_chip_child_enrollment,637844,644259,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202307,P,total_medicaid_and_chip_enrollment,1640664,1660695,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202307,P,total_medicaid_enrollment,1541554,1542108,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202307,P,total_chip_enrollment,99110,118587,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202307,P,medicaid_and_chip_child_enrollment,620727,632241,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202307,U,total_medicaid_and_chip_enrollment,1649658,1660695,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202307,U,total_medicaid_enrollment,1549986,1542108,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202307,U,total_chip_enrollment,99672,118587,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202307,U,medicaid_and_chip_child_enrollment,624861,632241,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202308,P,total_medicaid_and_chip_enrollment,1597010,1618026,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202308,P,total_medicaid_enrollment,1494884,1496688,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202308,P,total_chip_enrollment,102126,121338,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202308,P,medicaid_and_chip_child_enrollment,609746,621457,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202308,U,total_medicaid_and_chip_enrollment,1608510,1618026,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202308,U,total_medicaid_enrollment,1505306,1496688,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202308,U,total_chip_enrollment,103204,121338,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202308,U,medicaid_and_chip_child_enrollment,614515,621457,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202309,P,total_medicaid_and_chip_enrollment,1552346,1573768,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202309,P,total_medicaid_enrollment,1446435,1449214,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202309,P,total_chip_enrollment,105911,124554,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202309,P,medicaid_and_chip_child_enrollment,597561,609672,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202309,U,total_medicaid_and_chip_enrollment,1561424,1573768,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202309,U,total_medicaid_enrollment,1454652,1449214,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202309,U,total_chip_enrollment,106772,124554,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202309,U,medicaid_and_chip_child_enrollment,601247,609672,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202310,P,total_medicaid_and_chip_enrollment,1534304,1562968,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202310,P,total_medicaid_enrollment,1423959,1434314,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202310,P,total_chip_enrollment,110345,128654,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202310,P,medicaid_and_chip_child_enrollment,595092,609995,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202310,U,total_medicaid_and_chip_enrollment,1550789,1562968,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202310,U,total_medicaid_enrollment,1439821,1434314,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202310,U,total_chip_enrollment,110968,128654,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202310,U,medicaid_and_chip_child_enrollment,602561,609995,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202311,P,total_medicaid_and_chip_enrollment,1452438,1481062,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202311,P,total_medicaid_enrollment,1338984,1349534,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202311,P,total_chip_enrollment,113454,131528,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202311,P,medicaid_and_chip_child_enrollment,572457,586786,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202311,U,total_medicaid_and_chip_enrollment,1467478,1481062,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202311,U,total_medicaid_enrollment,1353977,1349534,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202311,U,total_chip_enrollment,113501,131528,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202311,U,medicaid_and_chip_child_enrollment,578338,586786,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202312,P,total_medicaid_and_chip_enrollment,1405707,1432209,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202312,P,total_medicaid_enrollment,1289428,1297621,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202312,P,total_chip_enrollment,116279,134588,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202312,P,medicaid_and_chip_child_enrollment,562929,576767,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202312,U,total_medicaid_and_chip_enrollment,1420075,1432209,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202312,U,total_medicaid_enrollment,1303902,1297621,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202312,U,total_chip_enrollment,116173,134588,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202312,U,medicaid_and_chip_child_enrollment,568670,576767,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202401,P,total_medicaid_and_chip_enrollment,1357319,1385822,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202401,P,total_medicaid_enrollment,1238439,1248544,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202401,P,total_chip_enrollment,118880,137278,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202401,P,medicaid_and_chip_child_enrollment,554061,568395,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202401,U,total_medicaid_and_chip_enrollment,1370169,1385822,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202401,U,total_medicaid_enrollment,1250231,1248544,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202401,U,total_chip_enrollment,119938,137278,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202401,U,medicaid_and_chip_child_enrollment,559240,568395,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202402,P,total_medicaid_and_chip_enrollment,1308507,1337965,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202402,P,total_medicaid_enrollment,1186420,1198022,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202402,P,total_chip_enrollment,122087,139943,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202402,P,medicaid_and_chip_child_enrollment,543301,558208,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202402,U,total_medicaid_and_chip_enrollment,1322264,1337965,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202402,U,total_medicaid_enrollment,1199804,1198022,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202402,U,total_chip_enrollment,122460,139943,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202402,U,medicaid_and_chip_child_enrollment,549071,558208,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202403,P,total_medicaid_and_chip_enrollment,1230193,1247174,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202403,P,total_medicaid_enrollment,1104219,1104301,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202403,P,total_chip_enrollment,125974,142873,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202403,P,medicaid_and_chip_child_enrollment,534934,544215,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202403,U,total_medicaid_and_chip_enrollment,1230193,1247174,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202403,U,total_medicaid_enrollment,1104219,1104301,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202403,U,total_chip_enrollment,125974,142873,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202403,U,medicaid_and_chip_child_enrollment,534934,544215,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202404,P,total_medicaid_and_chip_enrollment,1174868,1206604,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202404,P,total_medicaid_enrollment,1048634,1064013,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202404,P,total_chip_enrollment,126234,142591,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202404,P,medicaid_and_chip_child_enrollment,518905,533800,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202404,U,total_medicaid_and_chip_enrollment,1189864,1206604,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202404,U,total_medicaid_enrollment,1063726,1064013,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202404,U,total_chip_enrollment,126138,142591,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202404,U,medicaid_and_chip_child_enrollment,524750,533800,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202405,P,total_medicaid_and_chip_enrollment,1146718,1176566,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202405,P,total_medicaid_enrollment,1016611,1030785,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202405,P,total_chip_enrollment,130107,145781,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202405,P,medicaid_and_chip_child_enrollment,512384,526673,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202405,U,total_medicaid_and_chip_enrollment,1159130,1176566,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202405,U,total_medicaid_enrollment,1029565,1030785,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202405,U,total_chip_enrollment,129565,145781,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202405,U,medicaid_and_chip_child_enrollment,517198,526673,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202406,P,total_medicaid_and_chip_enrollment,1147223,1176823,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202406,P,total_medicaid_enrollment,1015699,1029843,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202406,P,total_chip_enrollment,131524,146980,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202406,P,medicaid_and_chip_child_enrollment,513482,527586,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202406,U,total_medicaid_and_chip_enrollment,1160609,1176823,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202406,U,total_medicaid_enrollment,1029614,1029843,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202406,U,total_chip_enrollment,130995,146980,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202406,U,medicaid_and_chip_child_enrollment,518780,527586,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202407,P,total_medicaid_and_chip_enrollment,1160609,1187076,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202407,P,total_medicaid_enrollment,1029614,1039150,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202407,P,total_chip_enrollment,130995,147926,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202407,P,medicaid_and_chip_child_enrollment,518780,530651,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202407,P,total_adult_medicaid_enrollment,641829,656425,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202407,U,total_medicaid_and_chip_enrollment,1172019,1187076,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202407,U,total_medicaid_enrollment,1040256,1039150,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202407,U,total_chip_enrollment,131763,147926,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202407,U,medicaid_and_chip_child_enrollment,522360,530651,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202407,U,total_adult_medicaid_enrollment,649659,656425,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202408,P,total_medicaid_and_chip_enrollment,1172334,1199006,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202408,P,total_medicaid_enrollment,1040205,1049917,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202408,P,total_chip_enrollment,132129,149089,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202408,P,medicaid_and_chip_child_enrollment,520641,533976,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202408,P,total_adult_medicaid_enrollment,651693,665030,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202408,U,total_medicaid_and_chip_enrollment,1185195,1199006,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202408,U,total_medicaid_enrollment,1052426,1049917,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202408,U,total_chip_enrollment,132769,149089,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202408,U,medicaid_and_chip_child_enrollment,526093,533976,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202408,U,total_adult_medicaid_enrollment,659102,665030,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202409,P,total_medicaid_and_chip_enrollment,1174588,1199492,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202409,P,total_medicaid_enrollment,1040621,1049905,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202409,P,total_chip_enrollment,133967,149587,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202409,P,medicaid_and_chip_child_enrollment,522443,534318,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202409,P,total_adult_medicaid_enrollment,652145,665174,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202409,U,total_medicaid_and_chip_enrollment,1186510,1199492,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202409,U,total_medicaid_enrollment,1052694,1049905,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202409,U,total_chip_enrollment,133816,149587,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202409,U,medicaid_and_chip_child_enrollment,527058,534318,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202409,U,total_adult_medicaid_enrollment,659452,665174,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202410,P,total_medicaid_and_chip_enrollment,1185011,1208009,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202410,P,total_medicaid_enrollment,1050373,1057956,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202410,P,total_chip_enrollment,134638,150053,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202410,P,medicaid_and_chip_child_enrollment,525429,536341,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202410,P,total_adult_medicaid_enrollment,659582,671668,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202410,U,total_medicaid_and_chip_enrollment,1194765,1208009,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202410,U,total_medicaid_enrollment,1060589,1057956,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202410,U,total_chip_enrollment,134176,150053,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202410,U,medicaid_and_chip_child_enrollment,528989,536341,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202410,U,total_adult_medicaid_enrollment,665776,671668,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202411,P,total_medicaid_and_chip_enrollment,1194765,1215783,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202411,P,total_medicaid_enrollment,1060589,1063934,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202411,P,total_chip_enrollment,134176,151849,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202411,P,medicaid_and_chip_child_enrollment,528989,538949,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202411,P,total_adult_medicaid_enrollment,665776,676834,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202411,U,total_medicaid_and_chip_enrollment,1202943,1215783,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202411,U,total_medicaid_enrollment,1066840,1063934,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202411,U,total_chip_enrollment,136103,151849,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202411,U,medicaid_and_chip_child_enrollment,531687,538949,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202411,U,total_adult_medicaid_enrollment,671256,676834,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202412,P,total_medicaid_and_chip_enrollment,1194852,1219924,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202412,P,total_medicaid_enrollment,1058326,1067531,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202412,P,total_chip_enrollment,136526,152393,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202412,P,medicaid_and_chip_child_enrollment,527529,539889,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202412,P,total_adult_medicaid_enrollment,667323,680035,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202412,U,total_medicaid_and_chip_enrollment,1212638,1219924,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202412,U,total_medicaid_enrollment,1077236,1067531,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202412,U,total_chip_enrollment,135402,152393,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202412,U,medicaid_and_chip_child_enrollment,534065,539889,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202412,U,total_adult_medicaid_enrollment,678573,680035,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202501,P,total_medicaid_and_chip_enrollment,1208864,1220606,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202501,P,total_medicaid_enrollment,1070533,1066317,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202501,P,total_chip_enrollment,138331,154289,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202501,P,medicaid_and_chip_child_enrollment,527528,534402,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202501,P,total_adult_medicaid_enrollment,681336,686204,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202501,U,total_medicaid_and_chip_enrollment,1208864,1220606,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202501,U,total_medicaid_enrollment,1070533,1066317,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202501,U,total_chip_enrollment,138331,154289,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202501,U,medicaid_and_chip_child_enrollment,527528,534402,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202501,U,total_adult_medicaid_enrollment,681336,686204,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202502,P,total_medicaid_and_chip_enrollment,1190587,1214270,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202502,P,total_medicaid_enrollment,1053521,1061620,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202502,P,total_chip_enrollment,137066,152650,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202502,P,medicaid_and_chip_child_enrollment,519049,530588,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202502,P,total_adult_medicaid_enrollment,671538,683682,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202502,U,total_medicaid_and_chip_enrollment,1201137,1214270,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202502,U,total_medicaid_enrollment,1064925,1061620,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202502,U,total_chip_enrollment,136212,152650,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202502,U,medicaid_and_chip_child_enrollment,523012,530588,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202502,U,total_adult_medicaid_enrollment,678125,683682,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202503,P,total_medicaid_and_chip_enrollment,1191549,1214035,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202503,P,total_medicaid_enrollment,1055023,1061370,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202503,P,total_chip_enrollment,136526,152665,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202503,P,medicaid_and_chip_child_enrollment,519089,530163,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202503,P,total_adult_medicaid_enrollment,672460,683872,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202503,U,total_medicaid_and_chip_enrollment,1203155,1214035,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202503,U,total_medicaid_enrollment,1067615,1061370,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202503,U,total_chip_enrollment,135540,152665,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202503,U,medicaid_and_chip_child_enrollment,523572,530163,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202503,U,total_adult_medicaid_enrollment,679583,683872,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202504,P,total_medicaid_and_chip_enrollment,1196520,1215244,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202504,P,total_medicaid_enrollment,1065939,1067897,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202504,P,total_chip_enrollment,130581,147347,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202504,P,medicaid_and_chip_child_enrollment,520668,529777,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202504,P,total_adult_medicaid_enrollment,675852,685467,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202504,U,total_medicaid_and_chip_enrollment,1204829,1215244,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202504,U,total_medicaid_enrollment,1074866,1067897,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202504,U,total_chip_enrollment,129963,147347,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202504,U,medicaid_and_chip_child_enrollment,523720,529777,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202504,U,total_adult_medicaid_enrollment,681109,685467,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202505,P,total_medicaid_and_chip_enrollment,1191958,1211048,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202505,P,total_medicaid_enrollment,1065822,1066598,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202505,P,total_chip_enrollment,126136,144450,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202505,P,medicaid_and_chip_child_enrollment,519327,528262,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202505,P,total_adult_medicaid_enrollment,672631,682786,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202505,U,total_medicaid_and_chip_enrollment,1200945,1211048,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202505,U,total_medicaid_enrollment,1074751,1066598,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202505,U,total_chip_enrollment,126194,144450,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202505,U,medicaid_and_chip_child_enrollment,522353,528262,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202505,U,total_adult_medicaid_enrollment,678592,682786,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202506,P,total_medicaid_and_chip_enrollment,1193176,1211357,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202506,P,total_medicaid_enrollment,1068627,1068294,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202506,P,total_chip_enrollment,124549,143063,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202506,P,medicaid_and_chip_child_enrollment,520489,528982,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202506,P,total_adult_medicaid_enrollment,672687,682375,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202506,U,total_medicaid_and_chip_enrollment,1202014,1211357,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202506,U,total_medicaid_enrollment,1076432,1068294,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202506,U,total_chip_enrollment,125582,143063,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202506,U,medicaid_and_chip_child_enrollment,523232,528982,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202506,U,total_adult_medicaid_enrollment,678782,682375,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202507,P,total_medicaid_and_chip_enrollment,1194665,1211065,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202507,P,total_medicaid_enrollment,1070714,1069623,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202507,P,total_chip_enrollment,123951,141442,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202507,P,medicaid_and_chip_child_enrollment,520595,528719,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202507,P,total_adult_medicaid_enrollment,674070,682346,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202507,U,total_medicaid_and_chip_enrollment,1205045,1211065,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202507,U,total_medicaid_enrollment,1080236,1069623,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202507,U,total_chip_enrollment,124809,141442,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202507,U,medicaid_and_chip_child_enrollment,525033,528719,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202507,U,total_adult_medicaid_enrollment,680012,682346,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202508,P,total_medicaid_and_chip_enrollment,1196877,1208383,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202508,P,total_medicaid_enrollment,1073465,1068445,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202508,P,total_chip_enrollment,123412,139938,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202508,P,medicaid_and_chip_child_enrollment,522879,528044,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202508,P,total_adult_medicaid_enrollment,673998,680339,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202508,U,total_medicaid_and_chip_enrollment,1228359,1208383,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202508,U,total_medicaid_enrollment,1082131,1068445,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202508,U,total_chip_enrollment,146228,139938,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202508,U,medicaid_and_chip_child_enrollment,544866,528044,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202508,U,total_adult_medicaid_enrollment,683493,680339,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202601,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Colorado,202602,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Connecticut,202601,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Connecticut,202602,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,District of Columbia,202601,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,District of Columbia,202602,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Delaware,202601,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Delaware,202602,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Florida,202601,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Florida,202602,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Georgia,202601,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Georgia,202602,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Hawaii,202601,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Hawaii,202602,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Iowa,202601,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Iowa,202602,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Idaho,202601,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Idaho,202602,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Illinois,202601,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Illinois,202602,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Indiana,202601,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Indiana,202602,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Kansas,202512,U,total_medicaid_and_chip_enrollment,404849,405747,data.medicaid.gov
+2026-05-30,2026-05-29,Kansas,202512,U,total_medicaid_enrollment,332430,333442,data.medicaid.gov
+2026-05-30,2026-05-29,Kansas,202512,U,total_chip_enrollment,72419,72305,data.medicaid.gov
+2026-05-30,2026-05-29,Kansas,202512,U,medicaid_and_chip_child_enrollment,279336,279656,data.medicaid.gov
+2026-05-30,2026-05-29,Kansas,202512,U,total_adult_medicaid_enrollment,125513,126091,data.medicaid.gov
+2026-05-30,2026-05-29,Kansas,202601,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Kansas,202602,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Kentucky,202601,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Kentucky,202602,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Louisiana,202601,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Louisiana,202602,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Massachusetts,202601,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Massachusetts,202602,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Maryland,202601,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Maryland,202602,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Maine,202601,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Maine,202602,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Michigan,202601,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Michigan,202602,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Minnesota,202601,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Minnesota,202602,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Missouri,202601,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Missouri,202602,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Mississippi,202601,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Mississippi,202602,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Montana,202601,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Montana,202602,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,North Carolina,202601,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,North Carolina,202602,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,North Dakota,202601,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,North Dakota,202602,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Nebraska,202601,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Nebraska,202602,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,New Hampshire,202601,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,New Hampshire,202602,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,New Jersey,202601,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,New Jersey,202602,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,New Mexico,202601,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,New Mexico,202602,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Nevada,202601,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Nevada,202602,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,New York,202601,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,New York,202602,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Ohio,202601,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Ohio,202602,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Oklahoma,202601,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Oklahoma,202602,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Oregon,202601,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Oregon,202602,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Pennsylvania,202601,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Pennsylvania,202602,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Rhode Island,202601,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Rhode Island,202602,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,South Carolina,202512,U,total_medicaid_and_chip_enrollment,977554,1001029,data.medicaid.gov
+2026-05-30,2026-05-29,South Carolina,202512,U,total_medicaid_enrollment,864722,886368,data.medicaid.gov
+2026-05-30,2026-05-29,South Carolina,202512,U,total_chip_enrollment,112832,114661,data.medicaid.gov
+2026-05-30,2026-05-29,South Carolina,202512,U,medicaid_and_chip_child_enrollment,605042,617853,data.medicaid.gov
+2026-05-30,2026-05-29,South Carolina,202512,U,total_adult_medicaid_enrollment,372512,383176,data.medicaid.gov
+2026-05-30,2026-05-29,South Carolina,202601,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,South Carolina,202602,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,South Dakota,202601,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,South Dakota,202602,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Tennessee,202601,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Tennessee,202602,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Texas,202601,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Texas,202602,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Utah,202601,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Utah,202602,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Virginia,202601,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Virginia,202602,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Vermont,202601,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Vermont,202602,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Washington,202601,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Washington,202602,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Wisconsin,202601,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Wisconsin,202602,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201706,P,total_medicaid_and_chip_enrollment,547084,547952,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201706,P,total_medicaid_enrollment,515221,513067,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201706,P,total_chip_enrollment,31863,34885,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201706,P,medicaid_and_chip_child_enrollment,225362,218271,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201706,U,total_medicaid_and_chip_enrollment,547084,547952,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201706,U,total_medicaid_enrollment,515221,513067,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201706,U,total_chip_enrollment,31863,34885,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201706,U,medicaid_and_chip_child_enrollment,225362,218271,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201707,P,total_medicaid_and_chip_enrollment,546958,547832,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201707,P,total_medicaid_enrollment,514660,512944,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201707,P,total_chip_enrollment,32298,34888,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201707,P,medicaid_and_chip_child_enrollment,225514,218508,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201707,U,total_medicaid_and_chip_enrollment,546958,547832,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201707,U,total_medicaid_enrollment,514660,512944,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201707,U,total_chip_enrollment,32298,34888,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201707,U,medicaid_and_chip_child_enrollment,225514,218508,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201708,P,total_medicaid_and_chip_enrollment,547225,548098,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201708,P,total_medicaid_enrollment,515327,513042,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201708,P,total_chip_enrollment,31898,35056,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201708,P,medicaid_and_chip_child_enrollment,226070,219206,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201708,U,total_medicaid_and_chip_enrollment,547225,548098,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201708,U,total_medicaid_enrollment,515327,513042,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201708,U,total_chip_enrollment,31898,35056,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201708,U,medicaid_and_chip_child_enrollment,226070,219206,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201709,P,total_medicaid_and_chip_enrollment,544461,545300,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201709,P,total_medicaid_enrollment,512025,510182,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201709,P,total_chip_enrollment,32436,35118,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201709,P,medicaid_and_chip_child_enrollment,225024,218185,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201709,U,total_medicaid_and_chip_enrollment,544461,545300,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201709,U,total_medicaid_enrollment,512025,510182,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201709,U,total_chip_enrollment,32436,35118,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201709,U,medicaid_and_chip_child_enrollment,225024,218185,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201710,P,total_medicaid_and_chip_enrollment,542237,543091,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201710,P,total_medicaid_enrollment,509639,507833,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201710,P,total_chip_enrollment,32598,35258,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201710,P,medicaid_and_chip_child_enrollment,224334,217445,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201710,U,total_medicaid_and_chip_enrollment,542237,543091,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201710,U,total_medicaid_enrollment,509639,507833,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201710,U,total_chip_enrollment,32598,35258,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201710,U,medicaid_and_chip_child_enrollment,224334,217445,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201711,P,total_medicaid_and_chip_enrollment,541494,542336,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201711,P,total_medicaid_enrollment,509036,507364,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201711,P,total_chip_enrollment,32458,34972,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201711,P,medicaid_and_chip_child_enrollment,223980,217010,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201711,U,total_medicaid_and_chip_enrollment,541494,542336,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201711,U,total_medicaid_enrollment,509036,507364,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201711,U,total_chip_enrollment,32458,34972,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201711,U,medicaid_and_chip_child_enrollment,223980,217010,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201712,P,total_medicaid_and_chip_enrollment,539431,540280,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201712,P,total_medicaid_enrollment,506911,505290,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201712,P,total_chip_enrollment,32520,34990,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201712,P,medicaid_and_chip_child_enrollment,222882,215925,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201712,U,total_medicaid_and_chip_enrollment,539431,540280,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201712,U,total_medicaid_enrollment,506911,505290,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201712,U,total_chip_enrollment,32520,34990,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201712,U,medicaid_and_chip_child_enrollment,222882,215925,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201801,P,total_medicaid_and_chip_enrollment,539029,539948,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201801,P,total_medicaid_enrollment,506476,504795,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201801,P,total_chip_enrollment,32553,35153,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201801,P,medicaid_and_chip_child_enrollment,222809,216622,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201801,U,total_medicaid_and_chip_enrollment,539029,539948,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201801,U,total_medicaid_enrollment,506476,504795,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201801,U,total_chip_enrollment,32553,35153,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201801,U,medicaid_and_chip_child_enrollment,222809,216622,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201802,P,total_medicaid_and_chip_enrollment,538248,539166,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201802,P,total_medicaid_enrollment,505412,503537,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201802,P,total_chip_enrollment,32836,35629,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201802,P,medicaid_and_chip_child_enrollment,223278,216972,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201802,U,total_medicaid_and_chip_enrollment,538248,539166,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201802,U,total_medicaid_enrollment,505412,503537,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201802,U,total_chip_enrollment,32836,35629,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201802,U,medicaid_and_chip_child_enrollment,223278,216972,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201803,P,total_medicaid_and_chip_enrollment,536076,536947,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201803,P,total_medicaid_enrollment,502959,501163,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201803,P,total_chip_enrollment,33117,35784,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201803,P,medicaid_and_chip_child_enrollment,221698,214615,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201803,U,total_medicaid_and_chip_enrollment,536076,536947,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201803,U,total_medicaid_enrollment,502959,501163,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201803,U,total_chip_enrollment,33117,35784,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201803,U,medicaid_and_chip_child_enrollment,221698,214615,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201804,P,total_medicaid_and_chip_enrollment,534858,535711,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201804,P,total_medicaid_enrollment,502328,500703,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201804,P,total_chip_enrollment,32530,35008,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201804,P,medicaid_and_chip_child_enrollment,221430,214257,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201804,U,total_medicaid_and_chip_enrollment,534858,535711,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201804,U,total_medicaid_enrollment,502328,500703,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201804,U,total_chip_enrollment,32530,35008,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201804,U,medicaid_and_chip_child_enrollment,221430,214257,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201805,P,total_medicaid_and_chip_enrollment,533692,534575,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201805,P,total_medicaid_enrollment,501151,499562,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201805,P,total_chip_enrollment,32541,35013,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201805,P,medicaid_and_chip_child_enrollment,221172,213965,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201805,U,total_medicaid_and_chip_enrollment,533692,534575,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201805,U,total_medicaid_enrollment,501151,499562,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201805,U,total_chip_enrollment,32541,35013,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201805,U,medicaid_and_chip_child_enrollment,221172,213965,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201806,P,total_medicaid_and_chip_enrollment,531632,532551,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201806,P,total_medicaid_enrollment,499038,497432,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201806,P,total_chip_enrollment,32594,35119,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201806,P,medicaid_and_chip_child_enrollment,220328,213170,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201806,U,total_medicaid_and_chip_enrollment,531632,532551,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201806,U,total_medicaid_enrollment,499038,497432,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201806,U,total_chip_enrollment,32594,35119,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201806,U,medicaid_and_chip_child_enrollment,220328,213170,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201807,P,total_medicaid_and_chip_enrollment,531913,532840,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201807,P,total_medicaid_enrollment,499120,497467,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201807,P,total_chip_enrollment,32793,35373,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201807,P,medicaid_and_chip_child_enrollment,220528,213422,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201807,U,total_medicaid_and_chip_enrollment,531913,532840,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201807,U,total_medicaid_enrollment,499120,497467,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201807,U,total_chip_enrollment,32793,35373,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201807,U,medicaid_and_chip_child_enrollment,220528,213422,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201808,P,total_medicaid_and_chip_enrollment,531566,532528,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201808,P,total_medicaid_enrollment,498351,496670,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201808,P,total_chip_enrollment,33215,35858,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201808,P,medicaid_and_chip_child_enrollment,220757,213771,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201808,U,total_medicaid_and_chip_enrollment,531566,532528,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201808,U,total_medicaid_enrollment,498351,496670,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201808,U,total_chip_enrollment,33215,35858,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201808,U,medicaid_and_chip_child_enrollment,220757,213771,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201809,P,total_medicaid_and_chip_enrollment,528360,529334,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201809,P,total_medicaid_enrollment,495042,493450,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201809,P,total_chip_enrollment,33318,35884,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201809,P,medicaid_and_chip_child_enrollment,219504,212667,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201809,U,total_medicaid_and_chip_enrollment,528360,529334,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201809,U,total_medicaid_enrollment,495042,493450,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201809,U,total_chip_enrollment,33318,35884,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201809,U,medicaid_and_chip_child_enrollment,219504,212667,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201810,P,total_medicaid_and_chip_enrollment,526393,527406,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201810,P,total_medicaid_enrollment,493100,491612,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201810,P,total_chip_enrollment,33293,35794,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201810,P,medicaid_and_chip_child_enrollment,218842,211985,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201810,U,total_medicaid_and_chip_enrollment,526393,527406,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201810,U,total_medicaid_enrollment,493100,491612,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201810,U,total_chip_enrollment,33293,35794,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201810,U,medicaid_and_chip_child_enrollment,218842,211985,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201811,P,total_medicaid_and_chip_enrollment,523186,524231,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201811,P,total_medicaid_enrollment,489834,488382,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201811,P,total_chip_enrollment,33352,35849,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201811,P,medicaid_and_chip_child_enrollment,217989,211108,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201811,U,total_medicaid_and_chip_enrollment,523186,524231,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201811,U,total_medicaid_enrollment,489834,488382,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201811,U,total_chip_enrollment,33352,35849,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201811,U,medicaid_and_chip_child_enrollment,217989,211108,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201812,P,total_medicaid_and_chip_enrollment,520930,521961,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201812,P,total_medicaid_enrollment,487719,486258,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201812,P,total_chip_enrollment,33211,35703,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201812,P,medicaid_and_chip_child_enrollment,217012,210267,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201812,U,total_medicaid_and_chip_enrollment,520930,521961,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201812,U,total_medicaid_enrollment,487719,486258,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201812,U,total_chip_enrollment,33211,35703,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201812,U,medicaid_and_chip_child_enrollment,217012,210267,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201901,P,total_medicaid_and_chip_enrollment,520510,521629,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201901,P,total_medicaid_enrollment,487101,485686,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201901,P,total_chip_enrollment,33409,35943,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201901,P,medicaid_and_chip_child_enrollment,217073,211107,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201901,U,total_medicaid_and_chip_enrollment,520510,521629,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201901,U,total_medicaid_enrollment,487101,485686,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201901,U,total_chip_enrollment,33409,35943,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201901,U,medicaid_and_chip_child_enrollment,217073,211107,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201902,P,total_medicaid_and_chip_enrollment,520691,521859,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201902,P,total_medicaid_enrollment,487273,485899,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201902,P,total_chip_enrollment,33418,35960,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201902,P,medicaid_and_chip_child_enrollment,217717,211719,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201902,U,total_medicaid_and_chip_enrollment,520691,521859,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201902,U,total_medicaid_enrollment,487273,485899,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201902,U,total_chip_enrollment,33418,35960,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201902,U,medicaid_and_chip_child_enrollment,217717,211719,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201903,P,total_medicaid_and_chip_enrollment,517729,518858,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201903,P,total_medicaid_enrollment,483898,482532,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201903,P,total_chip_enrollment,33831,36326,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201903,P,medicaid_and_chip_child_enrollment,216028,209376,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201903,U,total_medicaid_and_chip_enrollment,517729,518858,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201903,U,total_medicaid_enrollment,483898,482532,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201903,U,total_chip_enrollment,33831,36326,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201903,U,medicaid_and_chip_child_enrollment,216028,209376,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201904,P,total_medicaid_and_chip_enrollment,517138,518274,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201904,P,total_medicaid_enrollment,484257,482741,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201904,P,total_chip_enrollment,32881,35533,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201904,P,medicaid_and_chip_child_enrollment,215870,209222,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201904,U,total_medicaid_and_chip_enrollment,517138,518274,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201904,U,total_medicaid_enrollment,484257,482741,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201904,U,total_chip_enrollment,32881,35533,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201904,U,medicaid_and_chip_child_enrollment,215870,209222,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201905,P,total_medicaid_and_chip_enrollment,516475,517612,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201905,P,total_medicaid_enrollment,483559,482041,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201905,P,total_chip_enrollment,32916,35571,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201905,P,medicaid_and_chip_child_enrollment,215505,208839,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201905,U,total_medicaid_and_chip_enrollment,516475,517612,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201905,U,total_medicaid_enrollment,483559,482041,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201905,U,total_chip_enrollment,32916,35571,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201905,U,medicaid_and_chip_child_enrollment,215505,208839,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201906,P,total_medicaid_and_chip_enrollment,515142,516299,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201906,P,total_medicaid_enrollment,482106,480577,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201906,P,total_chip_enrollment,33036,35722,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201906,P,medicaid_and_chip_child_enrollment,214636,208033,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201906,U,total_medicaid_and_chip_enrollment,515142,516299,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201906,U,total_medicaid_enrollment,482106,480577,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201906,U,total_chip_enrollment,33036,35722,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201906,U,medicaid_and_chip_child_enrollment,214636,208033,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201907,P,total_medicaid_and_chip_enrollment,516488,517628,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201907,P,total_medicaid_enrollment,483429,481893,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201907,P,total_chip_enrollment,33059,35735,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201907,P,medicaid_and_chip_child_enrollment,215260,208589,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201907,U,total_medicaid_and_chip_enrollment,516488,517628,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201907,U,total_medicaid_enrollment,483429,481893,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201907,U,total_chip_enrollment,33059,35735,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201907,U,medicaid_and_chip_child_enrollment,215260,208589,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201908,P,total_medicaid_and_chip_enrollment,516500,517669,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201908,P,total_medicaid_enrollment,483250,481665,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201908,P,total_chip_enrollment,33250,36004,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201908,P,medicaid_and_chip_child_enrollment,215174,208660,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201908,U,total_medicaid_and_chip_enrollment,516500,517669,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201908,U,total_medicaid_enrollment,483250,481665,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201908,U,total_chip_enrollment,33250,36004,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201908,U,medicaid_and_chip_child_enrollment,215174,208660,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201909,P,total_medicaid_and_chip_enrollment,514946,516111,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201909,P,total_medicaid_enrollment,481711,480167,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201909,P,total_chip_enrollment,33235,35944,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201909,P,medicaid_and_chip_child_enrollment,214481,208002,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201909,U,total_medicaid_and_chip_enrollment,514946,516111,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201909,U,total_medicaid_enrollment,481711,480167,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201909,U,total_chip_enrollment,33235,35944,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201909,U,medicaid_and_chip_child_enrollment,214481,208002,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201910,P,total_medicaid_and_chip_enrollment,514890,516064,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201910,P,total_medicaid_enrollment,481706,480143,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201910,P,total_chip_enrollment,33184,35921,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201910,P,medicaid_and_chip_child_enrollment,214181,207677,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201910,U,total_medicaid_and_chip_enrollment,514890,516064,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201910,U,total_medicaid_enrollment,481706,480143,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201910,U,total_chip_enrollment,33184,35921,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201910,U,medicaid_and_chip_child_enrollment,214181,207677,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201911,P,total_medicaid_and_chip_enrollment,513394,514587,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201911,P,total_medicaid_enrollment,480178,478697,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201911,P,total_chip_enrollment,33216,35890,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201911,P,medicaid_and_chip_child_enrollment,213346,206804,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201911,U,total_medicaid_and_chip_enrollment,513394,514587,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201911,U,total_medicaid_enrollment,480178,478697,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201911,U,total_chip_enrollment,33216,35890,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201911,U,medicaid_and_chip_child_enrollment,213346,206804,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201912,P,total_medicaid_and_chip_enrollment,512933,514107,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201912,P,total_medicaid_enrollment,479633,478189,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201912,P,total_chip_enrollment,33300,35918,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201912,P,medicaid_and_chip_child_enrollment,213146,206641,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201912,U,total_medicaid_and_chip_enrollment,512933,514107,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201912,U,total_medicaid_enrollment,479633,478189,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201912,U,total_chip_enrollment,33300,35918,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,201912,U,medicaid_and_chip_child_enrollment,213146,206641,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202001,P,total_medicaid_and_chip_enrollment,513405,514695,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202001,P,total_medicaid_enrollment,479986,478541,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202001,P,total_chip_enrollment,33419,36154,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202001,P,medicaid_and_chip_child_enrollment,213476,207651,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202001,U,total_medicaid_and_chip_enrollment,513405,514695,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202001,U,total_medicaid_enrollment,479986,478541,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202001,U,total_chip_enrollment,33419,36154,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202001,U,medicaid_and_chip_child_enrollment,213476,207651,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202002,P,total_medicaid_and_chip_enrollment,512916,514206,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202002,P,total_medicaid_enrollment,479447,477984,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202002,P,total_chip_enrollment,33469,36222,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202002,P,medicaid_and_chip_child_enrollment,213905,207915,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202002,U,total_medicaid_and_chip_enrollment,512916,514206,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202002,U,total_medicaid_enrollment,479447,477984,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202002,U,total_chip_enrollment,33469,36222,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202002,U,medicaid_and_chip_child_enrollment,213905,207915,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202003,P,total_medicaid_and_chip_enrollment,511499,512974,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202003,P,total_medicaid_enrollment,478123,476979,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202003,P,total_chip_enrollment,33376,35995,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202003,P,medicaid_and_chip_child_enrollment,213427,206531,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202003,U,total_medicaid_and_chip_enrollment,511499,512974,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202003,U,total_medicaid_enrollment,478123,476979,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202003,U,total_chip_enrollment,33376,35995,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202003,U,medicaid_and_chip_child_enrollment,213427,206531,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202004,P,total_medicaid_and_chip_enrollment,519910,521337,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202004,P,total_medicaid_enrollment,486065,484918,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202004,P,total_chip_enrollment,33845,36419,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202004,P,medicaid_and_chip_child_enrollment,215961,208907,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202004,U,total_medicaid_and_chip_enrollment,519910,521337,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202004,U,total_medicaid_enrollment,486065,484918,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202004,U,total_chip_enrollment,33845,36419,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202004,U,medicaid_and_chip_child_enrollment,215961,208907,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202005,P,total_medicaid_and_chip_enrollment,526327,527714,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202005,P,total_medicaid_enrollment,492547,491376,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202005,P,total_chip_enrollment,33780,36338,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202005,P,medicaid_and_chip_child_enrollment,217853,210645,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202005,U,total_medicaid_and_chip_enrollment,526327,527714,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202005,U,total_medicaid_enrollment,492547,491376,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202005,U,total_chip_enrollment,33780,36338,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202005,U,medicaid_and_chip_child_enrollment,217853,210645,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202006,P,total_medicaid_and_chip_enrollment,532776,534136,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202006,P,total_medicaid_enrollment,498858,497649,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202006,P,total_chip_enrollment,33918,36487,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202006,P,medicaid_and_chip_child_enrollment,219738,212395,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202006,U,total_medicaid_and_chip_enrollment,532776,534136,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202006,U,total_medicaid_enrollment,498858,497649,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202006,U,total_chip_enrollment,33918,36487,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202006,U,medicaid_and_chip_child_enrollment,219738,212395,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202007,P,total_medicaid_and_chip_enrollment,538836,540206,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202007,P,total_medicaid_enrollment,504774,503587,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202007,P,total_chip_enrollment,34062,36619,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202007,P,medicaid_and_chip_child_enrollment,221406,213970,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202007,U,total_medicaid_and_chip_enrollment,538836,540206,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202007,U,total_medicaid_enrollment,504774,503587,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202007,U,total_chip_enrollment,34062,36619,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202007,U,medicaid_and_chip_child_enrollment,221406,213970,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202008,P,total_medicaid_and_chip_enrollment,545421,546948,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202008,P,total_medicaid_enrollment,511151,510082,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202008,P,total_chip_enrollment,34270,36866,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202008,P,medicaid_and_chip_child_enrollment,223155,215619,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202008,U,total_medicaid_and_chip_enrollment,545421,546948,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202008,U,total_medicaid_enrollment,511151,510082,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202008,U,total_chip_enrollment,34270,36866,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202008,U,medicaid_and_chip_child_enrollment,223155,215619,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202009,P,total_medicaid_and_chip_enrollment,551152,552691,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202009,P,total_medicaid_enrollment,517136,516108,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202009,P,total_chip_enrollment,34016,36583,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202009,P,medicaid_and_chip_child_enrollment,224634,217010,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202009,U,total_medicaid_and_chip_enrollment,551152,552691,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202009,U,total_medicaid_enrollment,517136,516108,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202009,U,total_chip_enrollment,34016,36583,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202009,U,medicaid_and_chip_child_enrollment,224634,217010,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202010,P,total_medicaid_and_chip_enrollment,556565,558110,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202010,P,total_medicaid_enrollment,522601,521557,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202010,P,total_chip_enrollment,33964,36553,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202010,P,medicaid_and_chip_child_enrollment,225927,218196,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202010,U,total_medicaid_and_chip_enrollment,556565,558110,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202010,U,total_medicaid_enrollment,522601,521557,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202010,U,total_chip_enrollment,33964,36553,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202010,U,medicaid_and_chip_child_enrollment,225927,218196,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202011,P,total_medicaid_and_chip_enrollment,561772,563284,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202011,P,total_medicaid_enrollment,527718,526714,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202011,P,total_chip_enrollment,34054,36570,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202011,P,medicaid_and_chip_child_enrollment,226817,218963,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202011,U,total_medicaid_and_chip_enrollment,561772,563284,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202011,U,total_medicaid_enrollment,527718,526714,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202011,U,total_chip_enrollment,34054,36570,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202011,U,medicaid_and_chip_child_enrollment,226817,218963,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202012,P,total_medicaid_and_chip_enrollment,566858,568332,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202012,P,total_medicaid_enrollment,532826,531831,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202012,P,total_chip_enrollment,34032,36501,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202012,P,medicaid_and_chip_child_enrollment,227781,219736,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202012,U,total_medicaid_and_chip_enrollment,566858,568332,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202012,U,total_medicaid_enrollment,532826,531831,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202012,U,total_chip_enrollment,34032,36501,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202012,U,medicaid_and_chip_child_enrollment,227781,219736,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202101,P,total_medicaid_and_chip_enrollment,571427,572990,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202101,P,total_medicaid_enrollment,537851,536443,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202101,P,total_chip_enrollment,33576,36547,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202101,P,medicaid_and_chip_child_enrollment,228812,221485,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202101,U,total_medicaid_and_chip_enrollment,571427,572990,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202101,U,total_medicaid_enrollment,537851,536443,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202101,U,total_chip_enrollment,33576,36547,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202101,U,medicaid_and_chip_child_enrollment,228812,221485,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202102,P,total_medicaid_and_chip_enrollment,575627,577290,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202102,P,total_medicaid_enrollment,542003,540753,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202102,P,total_chip_enrollment,33624,36537,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202102,P,medicaid_and_chip_child_enrollment,229823,222424,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202102,U,total_medicaid_and_chip_enrollment,575627,577290,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202102,U,total_medicaid_enrollment,542003,540753,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202102,U,total_chip_enrollment,33624,36537,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202102,U,medicaid_and_chip_child_enrollment,229823,222424,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202103,P,total_medicaid_and_chip_enrollment,580258,582126,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202103,P,total_medicaid_enrollment,546578,545657,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202103,P,total_chip_enrollment,33680,36469,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202103,P,medicaid_and_chip_child_enrollment,231045,222781,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202103,U,total_medicaid_and_chip_enrollment,580258,582126,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202103,U,total_medicaid_enrollment,546578,545657,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202103,U,total_chip_enrollment,33680,36469,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202103,U,medicaid_and_chip_child_enrollment,231045,222781,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202104,P,total_medicaid_and_chip_enrollment,583396,585784,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202104,P,total_medicaid_enrollment,550449,550172,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202104,P,total_chip_enrollment,32947,35612,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202104,P,medicaid_and_chip_child_enrollment,231745,223463,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202104,U,total_medicaid_and_chip_enrollment,583396,585784,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202104,U,total_medicaid_enrollment,550449,550172,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202104,U,total_chip_enrollment,32947,35612,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202104,U,medicaid_and_chip_child_enrollment,231745,223463,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202105,P,total_medicaid_and_chip_enrollment,586461,589031,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202105,P,total_medicaid_enrollment,553550,553466,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202105,P,total_chip_enrollment,32911,35565,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202105,P,medicaid_and_chip_child_enrollment,232066,223793,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202105,U,total_medicaid_and_chip_enrollment,586461,589031,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202105,U,total_medicaid_enrollment,553550,553466,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202105,U,total_chip_enrollment,32911,35565,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202105,U,medicaid_and_chip_child_enrollment,232066,223793,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202106,P,total_medicaid_and_chip_enrollment,589890,592528,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202106,P,total_medicaid_enrollment,556951,556983,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202106,P,total_chip_enrollment,32939,35545,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202106,P,medicaid_and_chip_child_enrollment,232736,224424,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202106,U,total_medicaid_and_chip_enrollment,589890,592528,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202106,U,total_medicaid_enrollment,556951,556983,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202106,U,total_chip_enrollment,32939,35545,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202106,U,medicaid_and_chip_child_enrollment,232736,224424,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202107,P,total_medicaid_and_chip_enrollment,593834,596652,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202107,P,total_medicaid_enrollment,561050,561226,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202107,P,total_chip_enrollment,32784,35426,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202107,P,medicaid_and_chip_child_enrollment,233521,225245,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202107,U,total_medicaid_and_chip_enrollment,593834,596652,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202107,U,total_medicaid_enrollment,561050,561226,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202107,U,total_chip_enrollment,32784,35426,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202107,U,medicaid_and_chip_child_enrollment,233521,225245,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202108,P,total_medicaid_and_chip_enrollment,598135,601062,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202108,P,total_medicaid_enrollment,565281,565503,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202108,P,total_chip_enrollment,32854,35559,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202108,P,medicaid_and_chip_child_enrollment,234662,226357,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202108,U,total_medicaid_and_chip_enrollment,598135,601062,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202108,U,total_medicaid_enrollment,565281,565503,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202108,U,total_chip_enrollment,32854,35559,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202108,U,medicaid_and_chip_child_enrollment,234662,226357,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202109,P,total_medicaid_and_chip_enrollment,601656,604691,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202109,P,total_medicaid_enrollment,568738,569028,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202109,P,total_chip_enrollment,32918,35663,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202109,P,medicaid_and_chip_child_enrollment,235598,227252,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202109,U,total_medicaid_and_chip_enrollment,601656,604691,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202109,U,total_medicaid_enrollment,568738,569028,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202109,U,total_chip_enrollment,32918,35663,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202109,U,medicaid_and_chip_child_enrollment,235598,227252,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202110,P,total_medicaid_and_chip_enrollment,604670,607799,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202110,P,total_medicaid_enrollment,571588,571917,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202110,P,total_chip_enrollment,33082,35882,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202110,P,medicaid_and_chip_child_enrollment,236234,227783,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202110,U,total_medicaid_and_chip_enrollment,604670,607799,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202110,U,total_medicaid_enrollment,571588,571917,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202110,U,total_chip_enrollment,33082,35882,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202110,U,medicaid_and_chip_child_enrollment,236234,227783,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202111,P,total_medicaid_and_chip_enrollment,608227,611447,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202111,P,total_medicaid_enrollment,575100,575527,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202111,P,total_chip_enrollment,33127,35920,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202111,P,medicaid_and_chip_child_enrollment,236963,228305,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202111,U,total_medicaid_and_chip_enrollment,608227,611447,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202111,U,total_medicaid_enrollment,575100,575527,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202111,U,total_chip_enrollment,33127,35920,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202111,U,medicaid_and_chip_child_enrollment,236963,228305,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202112,P,total_medicaid_and_chip_enrollment,611926,615267,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202112,P,total_medicaid_enrollment,578689,579249,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202112,P,total_chip_enrollment,33237,36018,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202112,P,medicaid_and_chip_child_enrollment,237804,228936,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202112,U,total_medicaid_and_chip_enrollment,611926,615267,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202112,U,total_medicaid_enrollment,578689,579249,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202112,U,total_chip_enrollment,33237,36018,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202112,U,medicaid_and_chip_child_enrollment,237804,228936,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202201,P,total_medicaid_and_chip_enrollment,615440,618978,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202201,P,total_medicaid_enrollment,582081,582804,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202201,P,total_chip_enrollment,33359,36174,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202201,P,medicaid_and_chip_child_enrollment,238609,230614,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202201,U,total_medicaid_and_chip_enrollment,615440,618978,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202201,U,total_medicaid_enrollment,582081,582804,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202201,U,total_chip_enrollment,33359,36174,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202201,U,medicaid_and_chip_child_enrollment,238609,230614,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202202,P,total_medicaid_and_chip_enrollment,618228,621926,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202202,P,total_medicaid_enrollment,584648,585563,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202202,P,total_chip_enrollment,33580,36363,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202202,P,medicaid_and_chip_child_enrollment,239430,231357,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202202,U,total_medicaid_and_chip_enrollment,618228,621926,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202202,U,total_medicaid_enrollment,584648,585563,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202202,U,total_chip_enrollment,33580,36363,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202202,U,medicaid_and_chip_child_enrollment,239430,231357,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202203,P,total_medicaid_and_chip_enrollment,621399,625233,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202203,P,total_medicaid_enrollment,587438,588604,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202203,P,total_chip_enrollment,33961,36629,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202203,P,medicaid_and_chip_child_enrollment,240226,231197,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202203,U,total_medicaid_and_chip_enrollment,621399,625233,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202203,U,total_medicaid_enrollment,587438,588604,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202203,U,total_chip_enrollment,33961,36629,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202203,U,medicaid_and_chip_child_enrollment,240226,231197,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202204,P,total_medicaid_and_chip_enrollment,623637,627706,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202204,P,total_medicaid_enrollment,591842,593001,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202204,P,total_chip_enrollment,31795,34705,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202204,P,medicaid_and_chip_child_enrollment,240584,231551,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202204,U,total_medicaid_and_chip_enrollment,623637,627706,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202204,U,total_medicaid_enrollment,591842,593001,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202204,U,total_chip_enrollment,31795,34705,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202204,U,medicaid_and_chip_child_enrollment,240584,231551,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202205,P,total_medicaid_and_chip_enrollment,625990,630351,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202205,P,total_medicaid_enrollment,594018,595516,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202205,P,total_chip_enrollment,31972,34835,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202205,P,medicaid_and_chip_child_enrollment,240921,231900,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202205,U,total_medicaid_and_chip_enrollment,625990,630351,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202205,U,total_medicaid_enrollment,594018,595516,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202205,U,total_chip_enrollment,31972,34835,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202205,U,medicaid_and_chip_child_enrollment,240921,231900,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202206,P,total_medicaid_and_chip_enrollment,628731,633513,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202206,P,total_medicaid_enrollment,596443,598418,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202206,P,total_chip_enrollment,32288,35095,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202206,P,medicaid_and_chip_child_enrollment,241495,232521,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202206,U,total_medicaid_and_chip_enrollment,628731,633513,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202206,U,total_medicaid_enrollment,596443,598418,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202206,U,total_chip_enrollment,32288,35095,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202206,U,medicaid_and_chip_child_enrollment,241495,232521,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202207,P,total_medicaid_and_chip_enrollment,631256,636796,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202207,P,total_medicaid_enrollment,598790,601485,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202207,P,total_chip_enrollment,32466,35311,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202207,P,medicaid_and_chip_child_enrollment,242081,233438,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202207,U,total_medicaid_and_chip_enrollment,631256,636796,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202207,U,total_medicaid_enrollment,598790,601485,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202207,U,total_chip_enrollment,32466,35311,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202207,U,medicaid_and_chip_child_enrollment,242081,233438,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202208,P,total_medicaid_and_chip_enrollment,635927,642636,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202208,P,total_medicaid_enrollment,603340,607208,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202208,P,total_chip_enrollment,32587,35428,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202208,P,medicaid_and_chip_child_enrollment,243554,235488,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202208,U,total_medicaid_and_chip_enrollment,635927,642636,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202208,U,total_medicaid_enrollment,603340,607208,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202208,U,total_chip_enrollment,32587,35428,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202208,U,medicaid_and_chip_child_enrollment,243554,235488,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202209,P,total_medicaid_and_chip_enrollment,635849,643655,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202209,P,total_medicaid_enrollment,602640,607416,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202209,P,total_chip_enrollment,33209,36239,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202209,P,medicaid_and_chip_child_enrollment,242694,235194,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202209,U,total_medicaid_and_chip_enrollment,635849,643655,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202209,U,total_medicaid_enrollment,602640,607416,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202209,U,total_chip_enrollment,33209,36239,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202209,U,medicaid_and_chip_child_enrollment,242694,235194,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202210,P,total_medicaid_and_chip_enrollment,638595,646411,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202210,P,total_medicaid_enrollment,605209,609980,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202210,P,total_chip_enrollment,33386,36431,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202210,P,medicaid_and_chip_child_enrollment,243129,235681,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202210,U,total_medicaid_and_chip_enrollment,638595,646411,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202210,U,total_medicaid_enrollment,605209,609980,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202210,U,total_chip_enrollment,33386,36431,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202210,U,medicaid_and_chip_child_enrollment,243129,235681,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202211,P,total_medicaid_and_chip_enrollment,640820,649278,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202211,P,total_medicaid_enrollment,607347,612712,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202211,P,total_chip_enrollment,33473,36566,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202211,P,medicaid_and_chip_child_enrollment,243464,235945,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202211,U,total_medicaid_and_chip_enrollment,640820,649278,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202211,U,total_medicaid_enrollment,607347,612712,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202211,U,total_chip_enrollment,33473,36566,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202211,U,medicaid_and_chip_child_enrollment,243464,235945,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202212,P,total_medicaid_and_chip_enrollment,645172,652206,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202212,P,total_medicaid_enrollment,611359,615360,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202212,P,total_chip_enrollment,33813,36846,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202212,P,medicaid_and_chip_child_enrollment,244495,236234,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202212,U,total_medicaid_and_chip_enrollment,645172,652206,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202212,U,total_medicaid_enrollment,611359,615360,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202212,U,total_chip_enrollment,33813,36846,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202212,U,medicaid_and_chip_child_enrollment,244495,236234,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202301,P,total_medicaid_and_chip_enrollment,647809,655681,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202301,P,total_medicaid_enrollment,613720,618629,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202301,P,total_chip_enrollment,34089,37052,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202301,P,medicaid_and_chip_child_enrollment,244926,237995,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202301,U,total_medicaid_and_chip_enrollment,647809,655681,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202301,U,total_medicaid_enrollment,613720,618629,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202301,U,total_chip_enrollment,34089,37052,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202301,U,medicaid_and_chip_child_enrollment,244926,237995,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202302,P,total_medicaid_and_chip_enrollment,650328,658142,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202302,P,total_medicaid_enrollment,615929,620805,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202302,P,total_chip_enrollment,34399,37337,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202302,P,medicaid_and_chip_child_enrollment,245501,238399,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202302,U,total_medicaid_and_chip_enrollment,650328,658142,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202302,U,total_medicaid_enrollment,615929,620805,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202302,U,total_chip_enrollment,34399,37337,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202302,U,medicaid_and_chip_child_enrollment,245501,238399,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202303,P,total_medicaid_and_chip_enrollment,653050,660735,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202303,P,total_medicaid_enrollment,617974,622863,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202303,P,total_chip_enrollment,35076,37872,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202303,P,medicaid_and_chip_child_enrollment,246350,238074,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202303,U,total_medicaid_and_chip_enrollment,653050,660735,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202303,U,total_medicaid_enrollment,617974,622863,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202303,U,total_chip_enrollment,35076,37872,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202303,U,medicaid_and_chip_child_enrollment,246350,238074,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202304,P,total_medicaid_and_chip_enrollment,655024,662638,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202304,P,total_medicaid_enrollment,623807,628159,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202304,P,total_chip_enrollment,31217,34479,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202304,P,medicaid_and_chip_child_enrollment,246824,238440,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202304,U,total_medicaid_and_chip_enrollment,655024,662638,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202304,U,total_medicaid_enrollment,623807,628159,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202304,U,total_chip_enrollment,31217,34479,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202304,U,medicaid_and_chip_child_enrollment,246824,238440,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202305,P,total_medicaid_and_chip_enrollment,634686,643762,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202305,P,total_medicaid_enrollment,602311,607908,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202305,P,total_chip_enrollment,32375,35854,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202305,P,medicaid_and_chip_child_enrollment,241044,234046,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202305,U,total_medicaid_and_chip_enrollment,634686,643762,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202305,U,total_medicaid_enrollment,602311,607908,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202305,U,total_chip_enrollment,32375,35854,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202305,U,medicaid_and_chip_child_enrollment,241044,234046,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202306,P,total_medicaid_and_chip_enrollment,612497,621043,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202306,P,total_medicaid_enrollment,578878,583765,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202306,P,total_chip_enrollment,33619,37278,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202306,P,medicaid_and_chip_child_enrollment,234300,229300,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202306,U,total_medicaid_and_chip_enrollment,612497,621043,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202306,U,total_medicaid_enrollment,578878,583765,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202306,U,total_chip_enrollment,33619,37278,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202306,U,medicaid_and_chip_child_enrollment,234300,229300,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202307,P,total_medicaid_and_chip_enrollment,596525,607968,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202307,P,total_medicaid_enrollment,561672,569248,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202307,P,total_chip_enrollment,34853,38720,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202307,P,medicaid_and_chip_child_enrollment,230058,227223,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202307,U,total_medicaid_and_chip_enrollment,596525,607968,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202307,U,total_medicaid_enrollment,561672,569248,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202307,U,total_chip_enrollment,34853,38720,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202307,U,medicaid_and_chip_child_enrollment,230058,227223,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202308,P,total_medicaid_and_chip_enrollment,583137,595625,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202308,P,total_medicaid_enrollment,546954,555232,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202308,P,total_chip_enrollment,36183,40393,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202308,P,medicaid_and_chip_child_enrollment,228581,226923,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202308,U,total_medicaid_and_chip_enrollment,583137,595625,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202308,U,total_medicaid_enrollment,546954,555232,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202308,U,total_chip_enrollment,36183,40393,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202308,U,medicaid_and_chip_child_enrollment,228581,226923,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202309,P,total_medicaid_and_chip_enrollment,569293,580924,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202309,P,total_medicaid_enrollment,532245,539663,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202309,P,total_chip_enrollment,37048,41261,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202309,P,medicaid_and_chip_child_enrollment,225778,223348,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202309,U,total_medicaid_and_chip_enrollment,569293,580924,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202309,U,total_medicaid_enrollment,532245,539663,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202309,U,total_chip_enrollment,37048,41261,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202309,U,medicaid_and_chip_child_enrollment,225778,223348,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202310,P,total_medicaid_and_chip_enrollment,560937,569171,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202310,P,total_medicaid_enrollment,523712,528303,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202310,P,total_chip_enrollment,37225,40868,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202310,P,medicaid_and_chip_child_enrollment,228412,222696,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202310,U,total_medicaid_and_chip_enrollment,560937,569171,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202310,U,total_medicaid_enrollment,523712,528303,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202310,U,total_chip_enrollment,37225,40868,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202310,U,medicaid_and_chip_child_enrollment,228412,222696,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202311,P,total_medicaid_and_chip_enrollment,548019,557594,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202311,P,total_medicaid_enrollment,510144,515901,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202311,P,total_chip_enrollment,37875,41693,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202311,P,medicaid_and_chip_child_enrollment,225169,220317,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202311,U,total_medicaid_and_chip_enrollment,548019,557594,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202311,U,total_medicaid_enrollment,510144,515901,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202311,U,total_chip_enrollment,37875,41693,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202311,U,medicaid_and_chip_child_enrollment,225169,220317,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202312,P,total_medicaid_and_chip_enrollment,535197,545010,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202312,P,total_medicaid_enrollment,497341,503120,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202312,P,total_chip_enrollment,37856,41890,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202312,P,medicaid_and_chip_child_enrollment,220642,216056,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202312,U,total_medicaid_and_chip_enrollment,535197,545010,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202312,U,total_medicaid_enrollment,497341,503120,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202312,U,total_chip_enrollment,37856,41890,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202312,U,medicaid_and_chip_child_enrollment,220642,216056,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202401,P,total_medicaid_and_chip_enrollment,528483,538218,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202401,P,total_medicaid_enrollment,489769,495518,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202401,P,total_chip_enrollment,38714,42700,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202401,P,medicaid_and_chip_child_enrollment,219768,215846,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202401,U,total_medicaid_and_chip_enrollment,528483,538218,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202401,U,total_medicaid_enrollment,489769,495518,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202401,U,total_chip_enrollment,38714,42700,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202401,U,medicaid_and_chip_child_enrollment,219768,215846,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202402,P,total_medicaid_and_chip_enrollment,521861,530984,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202402,P,total_medicaid_enrollment,482444,487736,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202402,P,total_chip_enrollment,39417,43248,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202402,P,medicaid_and_chip_child_enrollment,219109,214732,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202402,U,total_medicaid_and_chip_enrollment,521861,530984,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202402,U,total_medicaid_enrollment,482444,487736,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202402,U,total_chip_enrollment,39417,43248,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202402,U,medicaid_and_chip_child_enrollment,219109,214732,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202403,P,total_medicaid_and_chip_enrollment,518153,525893,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202403,P,total_medicaid_enrollment,478167,482338,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202403,P,total_chip_enrollment,39986,43555,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202403,P,medicaid_and_chip_child_enrollment,218673,213307,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202403,U,total_medicaid_and_chip_enrollment,518153,525893,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202403,U,total_medicaid_enrollment,478167,482338,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202403,U,total_chip_enrollment,39986,43555,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202403,U,medicaid_and_chip_child_enrollment,218673,213307,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202404,P,total_medicaid_and_chip_enrollment,515813,523649,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202404,P,total_medicaid_enrollment,477327,481587,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202404,P,total_chip_enrollment,38486,42062,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202404,P,medicaid_and_chip_child_enrollment,218230,212831,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202404,U,total_medicaid_and_chip_enrollment,515813,523649,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202404,U,total_medicaid_enrollment,477327,481587,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202404,U,total_chip_enrollment,38486,42062,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202404,U,medicaid_and_chip_child_enrollment,218230,212831,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202405,P,total_medicaid_and_chip_enrollment,514248,521797,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202405,P,total_medicaid_enrollment,476530,480113,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202405,P,total_chip_enrollment,37718,41684,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202405,P,medicaid_and_chip_child_enrollment,209482,211643,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202405,U,total_medicaid_and_chip_enrollment,514248,521797,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202405,U,total_medicaid_enrollment,476530,480113,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202405,U,total_chip_enrollment,37718,41684,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202405,U,medicaid_and_chip_child_enrollment,209482,211643,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202406,P,total_medicaid_and_chip_enrollment,513112,520324,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202406,P,total_medicaid_enrollment,475539,478869,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202406,P,total_chip_enrollment,37573,41455,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202406,P,medicaid_and_chip_child_enrollment,208628,210806,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202406,U,total_medicaid_and_chip_enrollment,513112,520324,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202406,U,total_medicaid_enrollment,475539,478869,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202406,U,total_chip_enrollment,37573,41455,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202406,U,medicaid_and_chip_child_enrollment,208628,210806,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202407,P,total_medicaid_and_chip_enrollment,513609,520781,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202407,P,total_medicaid_enrollment,476150,479452,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202407,P,total_chip_enrollment,37459,41329,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202407,P,medicaid_and_chip_child_enrollment,208523,210728,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202407,P,total_adult_medicaid_enrollment,305086,310053,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202407,U,total_medicaid_and_chip_enrollment,513609,520781,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202407,U,total_medicaid_enrollment,476150,479452,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202407,U,total_chip_enrollment,37459,41329,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202407,U,medicaid_and_chip_child_enrollment,208523,210728,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202407,U,total_adult_medicaid_enrollment,305086,310053,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202408,P,total_medicaid_and_chip_enrollment,513741,520403,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202408,P,total_medicaid_enrollment,475844,478843,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202408,P,total_chip_enrollment,37897,41560,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202408,P,medicaid_and_chip_child_enrollment,208269,210471,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202408,P,total_adult_medicaid_enrollment,305472,309932,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202408,U,total_medicaid_and_chip_enrollment,513741,520403,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202408,U,total_medicaid_enrollment,475844,478843,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202408,U,total_chip_enrollment,37897,41560,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202408,U,medicaid_and_chip_child_enrollment,208269,210471,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202408,U,total_adult_medicaid_enrollment,305472,309932,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202409,P,total_medicaid_and_chip_enrollment,512543,518920,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202409,P,total_medicaid_enrollment,474400,477191,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202409,P,total_chip_enrollment,38143,41729,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202409,P,medicaid_and_chip_child_enrollment,207682,209737,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202409,P,total_adult_medicaid_enrollment,304861,309183,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202409,U,total_medicaid_and_chip_enrollment,512543,518920,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202409,U,total_medicaid_enrollment,474400,477191,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202409,U,total_chip_enrollment,38143,41729,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202409,U,medicaid_and_chip_child_enrollment,207682,209737,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202409,U,total_adult_medicaid_enrollment,304861,309183,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202410,P,total_medicaid_and_chip_enrollment,510971,516806,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202410,P,total_medicaid_enrollment,472816,475152,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202410,P,total_chip_enrollment,38155,41654,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202410,P,medicaid_and_chip_child_enrollment,206368,208301,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202410,P,total_adult_medicaid_enrollment,304603,308505,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202410,U,total_medicaid_and_chip_enrollment,510971,516806,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202410,U,total_medicaid_enrollment,472816,475152,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202410,U,total_chip_enrollment,38155,41654,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202410,U,medicaid_and_chip_child_enrollment,206368,208301,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202410,U,total_adult_medicaid_enrollment,304603,308505,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202411,P,total_medicaid_and_chip_enrollment,506861,514156,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202411,P,total_medicaid_enrollment,468995,472647,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202411,P,total_chip_enrollment,37866,41509,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202411,P,medicaid_and_chip_child_enrollment,204288,206777,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202411,P,total_adult_medicaid_enrollment,302573,307379,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202411,U,total_medicaid_and_chip_enrollment,506861,514156,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202411,U,total_medicaid_enrollment,468995,472647,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202411,U,total_chip_enrollment,37866,41509,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202411,U,medicaid_and_chip_child_enrollment,204288,206777,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202411,U,total_adult_medicaid_enrollment,302573,307379,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202412,P,total_medicaid_and_chip_enrollment,505131,512968,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202412,P,total_medicaid_enrollment,467632,471636,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202412,P,total_chip_enrollment,37499,41332,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202412,P,medicaid_and_chip_child_enrollment,202600,205483,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202412,P,total_adult_medicaid_enrollment,302531,307485,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202412,U,total_medicaid_and_chip_enrollment,505131,512968,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202412,U,total_medicaid_enrollment,467632,471636,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202412,U,total_chip_enrollment,37499,41332,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202412,U,medicaid_and_chip_child_enrollment,202600,205483,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202412,U,total_adult_medicaid_enrollment,302531,307485,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202501,P,total_medicaid_and_chip_enrollment,508322,512308,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202501,P,total_medicaid_enrollment,470526,471010,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202501,P,total_chip_enrollment,37796,41298,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202501,P,medicaid_and_chip_child_enrollment,206291,205846,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202501,P,total_adult_medicaid_enrollment,302031,306462,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202501,U,total_medicaid_and_chip_enrollment,508322,512308,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202501,U,total_medicaid_enrollment,470526,471010,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202501,U,total_chip_enrollment,37796,41298,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202501,U,medicaid_and_chip_child_enrollment,206291,205846,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202501,U,total_adult_medicaid_enrollment,302031,306462,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202502,P,total_medicaid_and_chip_enrollment,508225,511219,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202502,P,total_medicaid_enrollment,467078,469963,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202502,P,total_chip_enrollment,41147,41256,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202502,P,medicaid_and_chip_child_enrollment,204844,205781,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202502,P,total_adult_medicaid_enrollment,303381,305438,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202502,U,total_medicaid_and_chip_enrollment,508225,511219,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202502,U,total_medicaid_enrollment,467078,469963,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202502,U,total_chip_enrollment,41147,41256,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202502,U,medicaid_and_chip_child_enrollment,204844,205781,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202502,U,total_adult_medicaid_enrollment,303381,305438,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202503,P,total_medicaid_and_chip_enrollment,505266,509613,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202503,P,total_medicaid_enrollment,464821,468941,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202503,P,total_chip_enrollment,40445,40672,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202503,P,medicaid_and_chip_child_enrollment,202415,203943,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202503,P,total_adult_medicaid_enrollment,302851,305670,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202503,U,total_medicaid_and_chip_enrollment,505266,509613,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202503,U,total_medicaid_enrollment,464821,468941,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202503,U,total_chip_enrollment,40445,40672,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202503,U,medicaid_and_chip_child_enrollment,202415,203943,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202503,U,total_adult_medicaid_enrollment,302851,305670,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202601,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,West Virginia,202602,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Wyoming,202601,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-05-30,2026-05-29,Wyoming,202602,P,ROW_ADDED,,new_record,data.medicaid.gov
