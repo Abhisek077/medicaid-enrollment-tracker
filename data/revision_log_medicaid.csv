@@ -1812,3 +1812,271 @@ detected_date,previous_vintage_date,state_name,report_date,data_type,field,old_v
 2026-06-27,2026-06-26,West Virginia,202603,P,ROW_ADDED,,new_record,data.medicaid.gov
 2026-06-27,2026-06-26,Wyoming,202602,U,ROW_ADDED,,new_record,data.medicaid.gov
 2026-06-27,2026-06-26,Wyoming,202603,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Alaska,202603,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Alaska,202604,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Alabama,202603,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Alabama,202604,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Arkansas,202603,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Arkansas,202604,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Arizona,202603,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Arizona,202604,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,California,202603,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,California,202604,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Colorado,202603,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Colorado,202604,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Connecticut,202603,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Connecticut,202604,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,District of Columbia,202603,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,District of Columbia,202604,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Delaware,202603,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Delaware,202604,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Florida,202603,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Florida,202604,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Georgia,202603,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Georgia,202604,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Hawaii,202603,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Hawaii,202604,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Iowa,202603,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Iowa,202604,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Idaho,202603,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Idaho,202604,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Illinois,202603,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Illinois,202604,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Indiana,202603,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Indiana,202604,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202203,U,total_medicaid_and_chip_enrollment,481775,481840,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202203,U,total_chip_enrollment,67774,67839,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202203,U,medicaid_and_chip_child_enrollment,323693,323758,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202204,U,total_medicaid_and_chip_enrollment,494440,483045,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202204,U,total_chip_enrollment,78700,67305,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202204,U,medicaid_and_chip_child_enrollment,335896,324501,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202205,U,total_medicaid_and_chip_enrollment,485399,485455,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202205,U,total_chip_enrollment,67414,67470,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202205,U,medicaid_and_chip_child_enrollment,326179,326235,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202206,U,total_medicaid_and_chip_enrollment,488485,488591,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202206,U,total_chip_enrollment,67453,67559,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202206,U,medicaid_and_chip_child_enrollment,328373,328479,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202207,U,total_medicaid_and_chip_enrollment,491794,491952,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202207,U,total_chip_enrollment,67526,67684,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202207,U,medicaid_and_chip_child_enrollment,330772,330930,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202208,U,total_medicaid_and_chip_enrollment,494621,494766,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202208,U,total_chip_enrollment,67592,67737,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202208,U,medicaid_and_chip_child_enrollment,332851,332996,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202209,U,total_medicaid_and_chip_enrollment,496822,496902,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202209,U,total_chip_enrollment,67731,67811,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202209,U,medicaid_and_chip_child_enrollment,334926,335006,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202210,U,total_medicaid_and_chip_enrollment,500048,500169,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202210,U,total_chip_enrollment,67686,67807,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202210,U,medicaid_and_chip_child_enrollment,335820,335941,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202211,U,total_medicaid_and_chip_enrollment,502861,502956,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202211,U,total_chip_enrollment,68018,68113,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202211,U,medicaid_and_chip_child_enrollment,336966,337061,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202212,U,total_medicaid_and_chip_enrollment,506037,506168,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202212,U,total_chip_enrollment,68410,68541,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202212,U,medicaid_and_chip_child_enrollment,338166,338297,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202301,U,total_medicaid_and_chip_enrollment,513068,503270,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202301,U,total_chip_enrollment,78352,68554,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202301,U,medicaid_and_chip_child_enrollment,347008,337210,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202302,U,total_medicaid_and_chip_enrollment,509587,509665,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202302,U,total_chip_enrollment,68361,68439,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202302,U,medicaid_and_chip_child_enrollment,338942,339020,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202303,U,total_medicaid_and_chip_enrollment,510709,510806,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202303,U,total_chip_enrollment,68267,68364,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202303,U,medicaid_and_chip_child_enrollment,336776,336873,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202304,U,total_medicaid_and_chip_enrollment,511847,512005,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202304,U,total_chip_enrollment,67907,68065,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202304,U,medicaid_and_chip_child_enrollment,337817,337975,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202305,U,total_medicaid_and_chip_enrollment,486253,484061,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202305,U,total_chip_enrollment,65129,62937,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202305,U,medicaid_and_chip_child_enrollment,319937,317745,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202306,U,total_medicaid_and_chip_enrollment,486213,485006,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202306,U,total_chip_enrollment,65746,64539,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202306,U,medicaid_and_chip_child_enrollment,320180,318973,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202308,U,total_medicaid_and_chip_enrollment,473648,468449,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202308,U,total_chip_enrollment,66418,61219,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202308,U,medicaid_and_chip_child_enrollment,313482,308283,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202309,U,total_medicaid_and_chip_enrollment,472991,493565,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202309,U,total_medicaid_enrollment,405614,425754,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202309,U,total_chip_enrollment,67377,67811,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202309,U,medicaid_and_chip_child_enrollment,313743,314177,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202310,U,total_medicaid_and_chip_enrollment,472582,482699,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202310,U,total_chip_enrollment,68641,78758,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202310,U,medicaid_and_chip_child_enrollment,308639,318756,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202311,U,total_medicaid_and_chip_enrollment,459371,458140,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202311,U,total_chip_enrollment,67317,66086,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202311,U,medicaid_and_chip_child_enrollment,300757,299526,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202312,U,total_medicaid_and_chip_enrollment,445068,443019,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202312,U,total_chip_enrollment,66880,64831,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202312,U,medicaid_and_chip_child_enrollment,292253,290204,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202401,U,total_medicaid_and_chip_enrollment,442499,441193,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202401,U,total_chip_enrollment,67624,66318,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202401,U,medicaid_and_chip_child_enrollment,291589,290283,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202402,U,total_medicaid_and_chip_enrollment,442315,441636,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202402,U,total_chip_enrollment,68933,68254,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202402,U,medicaid_and_chip_child_enrollment,292639,291960,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202403,U,total_medicaid_and_chip_enrollment,439416,439021,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202403,U,total_chip_enrollment,69701,69306,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202403,U,medicaid_and_chip_child_enrollment,291663,291268,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202404,U,total_medicaid_and_chip_enrollment,437642,437554,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202404,U,total_chip_enrollment,70208,70120,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202404,U,medicaid_and_chip_child_enrollment,291855,291767,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202405,U,total_medicaid_and_chip_enrollment,431377,431115,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202405,U,total_chip_enrollment,71597,71335,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202405,U,medicaid_and_chip_child_enrollment,289421,289159,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202406,U,total_medicaid_and_chip_enrollment,421537,408480,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202406,U,total_medicaid_enrollment,348034,335509,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202406,U,total_chip_enrollment,73503,72971,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202406,U,medicaid_and_chip_child_enrollment,284305,283773,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202407,U,total_medicaid_and_chip_enrollment,418827,418395,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202407,U,total_chip_enrollment,74905,74473,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202407,U,medicaid_and_chip_child_enrollment,283583,283151,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202408,U,total_medicaid_and_chip_enrollment,418996,418804,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202408,U,total_chip_enrollment,75950,75758,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202408,U,medicaid_and_chip_child_enrollment,285668,285476,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202409,U,total_medicaid_and_chip_enrollment,417285,417059,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202409,U,total_chip_enrollment,76148,75922,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202409,U,medicaid_and_chip_child_enrollment,285240,285014,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202410,U,total_medicaid_and_chip_enrollment,418524,418522,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202410,U,total_chip_enrollment,76503,76501,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202410,U,medicaid_and_chip_child_enrollment,284160,284158,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202411,U,total_medicaid_and_chip_enrollment,419199,412106,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202411,U,total_medicaid_enrollment,342230,335093,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202411,U,total_chip_enrollment,76969,77013,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202411,U,medicaid_and_chip_child_enrollment,285546,285590,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202412,U,total_medicaid_and_chip_enrollment,420776,413111,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202412,U,total_medicaid_enrollment,343616,335902,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202412,U,total_chip_enrollment,77160,77209,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202412,U,medicaid_and_chip_child_enrollment,287111,287160,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202501,U,total_medicaid_and_chip_enrollment,421410,421437,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202501,U,total_chip_enrollment,77081,77108,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202501,U,medicaid_and_chip_child_enrollment,288099,288126,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202502,U,total_medicaid_and_chip_enrollment,421277,421493,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202502,U,total_chip_enrollment,76912,77128,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202502,U,medicaid_and_chip_child_enrollment,288706,288922,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202503,U,total_medicaid_and_chip_enrollment,420105,420083,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202503,U,total_chip_enrollment,76434,76412,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202503,U,medicaid_and_chip_child_enrollment,288536,288514,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202504,U,total_medicaid_and_chip_enrollment,419550,419648,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202504,U,total_chip_enrollment,75922,76020,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202504,U,medicaid_and_chip_child_enrollment,288846,288944,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202505,U,total_medicaid_and_chip_enrollment,414776,414728,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202505,U,total_chip_enrollment,74889,74841,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202505,U,medicaid_and_chip_child_enrollment,286001,285953,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202506,U,total_medicaid_and_chip_enrollment,413182,413232,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202506,U,total_chip_enrollment,74180,74230,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202506,U,medicaid_and_chip_child_enrollment,285282,285332,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202507,U,total_medicaid_and_chip_enrollment,409987,410031,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202507,U,total_chip_enrollment,73412,73456,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202507,U,medicaid_and_chip_child_enrollment,283705,283749,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202508,U,total_medicaid_and_chip_enrollment,409720,401051,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202508,U,total_medicaid_enrollment,336484,327782,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202508,U,total_chip_enrollment,73236,73269,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202508,U,medicaid_and_chip_child_enrollment,284134,284167,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202509,U,total_medicaid_and_chip_enrollment,407568,407696,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202509,U,total_chip_enrollment,72773,72901,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202509,U,medicaid_and_chip_child_enrollment,282827,282955,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202510,U,total_medicaid_and_chip_enrollment,408565,408796,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202510,U,total_chip_enrollment,72721,72952,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202510,U,medicaid_and_chip_child_enrollment,281058,281289,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202511,U,total_medicaid_and_chip_enrollment,407624,407753,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202511,U,total_chip_enrollment,72489,72618,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202511,U,medicaid_and_chip_child_enrollment,280589,280718,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202512,U,total_medicaid_and_chip_enrollment,405747,406032,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202512,U,total_chip_enrollment,72305,72590,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202512,U,medicaid_and_chip_child_enrollment,279656,279941,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202601,U,total_medicaid_and_chip_enrollment,405766,405981,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202601,U,total_chip_enrollment,72588,72803,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202601,U,medicaid_and_chip_child_enrollment,280089,280304,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202602,U,total_medicaid_and_chip_enrollment,400834,401003,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202602,U,total_chip_enrollment,72071,72240,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202602,U,medicaid_and_chip_child_enrollment,277580,277749,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202603,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Kansas,202604,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Kentucky,202603,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Kentucky,202604,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Louisiana,202603,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Louisiana,202604,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Massachusetts,202603,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Massachusetts,202604,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Maryland,202603,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Maryland,202604,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Maine,202603,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Maine,202604,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Michigan,202603,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Michigan,202604,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Minnesota,202603,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Minnesota,202604,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Missouri,202603,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Missouri,202604,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Mississippi,202603,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Mississippi,202604,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Montana,202603,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Montana,202604,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,North Carolina,202603,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,North Carolina,202604,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,North Dakota,202603,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,North Dakota,202604,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Nebraska,202603,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Nebraska,202604,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,New Hampshire,202603,P,total_medicaid_and_chip_enrollment,173797,171555,data.medicaid.gov
+2026-08-01,2026-07-31,New Hampshire,202603,P,total_medicaid_enrollment,154739,152612,data.medicaid.gov
+2026-08-01,2026-07-31,New Hampshire,202603,P,total_chip_enrollment,19058,18943,data.medicaid.gov
+2026-08-01,2026-07-31,New Hampshire,202603,P,medicaid_and_chip_child_enrollment,85900,85149,data.medicaid.gov
+2026-08-01,2026-07-31,New Hampshire,202603,P,total_adult_medicaid_enrollment,87897,86406,data.medicaid.gov
+2026-08-01,2026-07-31,New Hampshire,202603,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,New Hampshire,202604,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,New Jersey,202603,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,New Jersey,202604,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,New Mexico,202601,U,total_medicaid_and_chip_enrollment,681756,686789,data.medicaid.gov
+2026-08-01,2026-07-31,New Mexico,202601,U,total_medicaid_enrollment,637738,642633,data.medicaid.gov
+2026-08-01,2026-07-31,New Mexico,202601,U,total_chip_enrollment,44018,44156,data.medicaid.gov
+2026-08-01,2026-07-31,New Mexico,202601,U,medicaid_and_chip_child_enrollment,307948,309867,data.medicaid.gov
+2026-08-01,2026-07-31,New Mexico,202601,U,total_adult_medicaid_enrollment,373808,376922,data.medicaid.gov
+2026-08-01,2026-07-31,New Mexico,202602,U,total_medicaid_and_chip_enrollment,680107,684417,data.medicaid.gov
+2026-08-01,2026-07-31,New Mexico,202602,U,total_medicaid_enrollment,636198,640309,data.medicaid.gov
+2026-08-01,2026-07-31,New Mexico,202602,U,total_chip_enrollment,43909,44108,data.medicaid.gov
+2026-08-01,2026-07-31,New Mexico,202602,U,medicaid_and_chip_child_enrollment,307319,308890,data.medicaid.gov
+2026-08-01,2026-07-31,New Mexico,202602,U,total_adult_medicaid_enrollment,372788,375527,data.medicaid.gov
+2026-08-01,2026-07-31,New Mexico,202603,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,New Mexico,202604,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Nevada,202603,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Nevada,202604,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,New York,202603,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,New York,202604,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Ohio,202603,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Ohio,202604,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Oklahoma,202603,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Oklahoma,202604,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Oregon,202603,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Oregon,202604,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Pennsylvania,202603,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Pennsylvania,202604,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Rhode Island,202603,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Rhode Island,202604,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,South Carolina,202602,U,total_medicaid_and_chip_enrollment,967113,990859,data.medicaid.gov
+2026-08-01,2026-07-31,South Carolina,202602,U,total_medicaid_enrollment,853622,875562,data.medicaid.gov
+2026-08-01,2026-07-31,South Carolina,202602,U,total_chip_enrollment,113491,115297,data.medicaid.gov
+2026-08-01,2026-07-31,South Carolina,202602,U,medicaid_and_chip_child_enrollment,599752,612858,data.medicaid.gov
+2026-08-01,2026-07-31,South Carolina,202602,U,total_adult_medicaid_enrollment,367361,378001,data.medicaid.gov
+2026-08-01,2026-07-31,South Carolina,202603,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,South Carolina,202604,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,South Dakota,202603,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,South Dakota,202604,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Tennessee,202603,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Tennessee,202604,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Texas,202603,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Texas,202604,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Utah,202603,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Utah,202604,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Virginia,202603,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Virginia,202604,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Vermont,202603,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Vermont,202604,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Washington,202603,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Washington,202604,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Wisconsin,202603,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Wisconsin,202604,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,West Virginia,202603,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,West Virginia,202604,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Wyoming,202603,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-01,2026-07-31,Wyoming,202604,P,ROW_ADDED,,new_record,data.medicaid.gov
