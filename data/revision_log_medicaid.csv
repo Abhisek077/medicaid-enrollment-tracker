@@ -2080,3 +2080,114 @@ detected_date,previous_vintage_date,state_name,report_date,data_type,field,old_v
 2026-08-01,2026-07-31,West Virginia,202604,P,ROW_ADDED,,new_record,data.medicaid.gov
 2026-08-01,2026-07-31,Wyoming,202603,U,ROW_ADDED,,new_record,data.medicaid.gov
 2026-08-01,2026-07-31,Wyoming,202604,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Alaska,202604,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Alaska,202605,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Alabama,202604,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Alabama,202605,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Arkansas,202604,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Arkansas,202605,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Arizona,202604,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Arizona,202605,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,California,202604,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,California,202605,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Colorado,202604,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Colorado,202605,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Connecticut,202604,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Connecticut,202605,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,District of Columbia,202604,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,District of Columbia,202605,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Delaware,202604,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Delaware,202605,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Florida,202604,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Florida,202605,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Georgia,202604,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Georgia,202605,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Hawaii,202604,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Hawaii,202605,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Iowa,202604,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Iowa,202605,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Idaho,202604,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Idaho,202605,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Illinois,202604,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Illinois,202605,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Indiana,202604,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Indiana,202605,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Kansas,202604,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Kansas,202605,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Kentucky,202604,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Kentucky,202605,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Louisiana,202604,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Louisiana,202605,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Massachusetts,202604,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Massachusetts,202605,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Maryland,202604,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Maryland,202605,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Maine,202604,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Maine,202605,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Michigan,202604,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Michigan,202605,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Minnesota,202604,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Minnesota,202605,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Missouri,202604,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Missouri,202605,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Mississippi,202604,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Mississippi,202605,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Montana,202604,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Montana,202605,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,North Carolina,202604,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,North Carolina,202605,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,North Dakota,202604,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,North Dakota,202605,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Nebraska,202604,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Nebraska,202605,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,New Hampshire,202604,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,New Hampshire,202605,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,New Jersey,202604,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,New Jersey,202605,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,New Mexico,202604,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,New Mexico,202605,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Nevada,202603,P,medicaid_and_chip_child_enrollment,326058,314058,data.medicaid.gov
+2026-08-28,2026-08-27,Nevada,202603,P,total_adult_medicaid_enrollment,399307,411307,data.medicaid.gov
+2026-08-28,2026-08-27,Nevada,202603,U,medicaid_and_chip_child_enrollment,326058,314058,data.medicaid.gov
+2026-08-28,2026-08-27,Nevada,202603,U,total_adult_medicaid_enrollment,399307,411307,data.medicaid.gov
+2026-08-28,2026-08-27,Nevada,202604,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Nevada,202605,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,New York,202604,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,New York,202605,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Ohio,202604,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Ohio,202605,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Oklahoma,202604,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Oklahoma,202605,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Oregon,202604,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Oregon,202605,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Pennsylvania,202604,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Pennsylvania,202605,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Rhode Island,202604,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Rhode Island,202605,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,South Carolina,202603,U,total_medicaid_and_chip_enrollment,963899,986701,data.medicaid.gov
+2026-08-28,2026-08-27,South Carolina,202603,U,total_medicaid_enrollment,851127,872313,data.medicaid.gov
+2026-08-28,2026-08-27,South Carolina,202603,U,total_chip_enrollment,112772,114388,data.medicaid.gov
+2026-08-28,2026-08-27,South Carolina,202603,U,medicaid_and_chip_child_enrollment,597283,609924,data.medicaid.gov
+2026-08-28,2026-08-27,South Carolina,202603,U,total_adult_medicaid_enrollment,366616,376777,data.medicaid.gov
+2026-08-28,2026-08-27,South Carolina,202604,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,South Carolina,202605,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,South Dakota,202604,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,South Dakota,202605,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Tennessee,202604,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Tennessee,202605,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Texas,202604,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Texas,202605,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Utah,202604,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Utah,202605,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Virginia,202604,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Virginia,202605,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Vermont,202604,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Vermont,202605,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Washington,202604,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Washington,202605,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Wisconsin,202604,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Wisconsin,202605,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,West Virginia,202604,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,West Virginia,202605,P,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Wyoming,202604,U,ROW_ADDED,,new_record,data.medicaid.gov
+2026-08-28,2026-08-27,Wyoming,202605,P,ROW_ADDED,,new_record,data.medicaid.gov
